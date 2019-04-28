@@ -1,5 +1,5 @@
 
-gg.toast("SCRIPT ATUALIZADO DIA 28/04")
+gg.alert("SCRIPT ATUALIZADO DIA 28/04")
 goto START
 ::START::
 menu= gg.choice({
