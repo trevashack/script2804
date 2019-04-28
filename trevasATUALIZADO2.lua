@@ -1,3 +1,7 @@
+
+gg.alert('Script Online\nVersão Script 5.0',"Skip")
+V = load(gg.makeRequest("https://raw.githubusercontent.com/trevashack/script2804/master/trevasATUALIZADO2.lua").content
+
 goto START
 ::START::
 menu= gg.choice({
