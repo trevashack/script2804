@@ -1,7 +1,7 @@
 goto START
 ::START::
 menu= gg.choice({
-'Radar Hack(ativar no lobby)'
+'Radar Hack.(ativar no lobby)'
 ,'Super Pulo✓(Alterar manualmente o valor 3 para 6)✓'
 ,'Recarregar em 1segundo✓'
 ,'M4A1 AIMBOT(Ative com a m4a1 em mãos)✓'
