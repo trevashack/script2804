@@ -1,5 +1,6 @@
 
 gg.alert("⚡🇧🇷 🇸 🇨 🇷 🇮 🇵 🇹  🇦 🇹 🇺 🇦 🇱 🇮 🇿 🇦 🇩 🇴🇧🇷⚡")
+gg.alert(" to editando uma parada nova horário: 02:47 da madrugada ")
 goto START
 ::START::
 menu= gg.choice({
@@ -238,7 +239,6 @@ goto sdone
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
  gg.searchNumber("6.25;2.1;7.0::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-  gg.editAll("8", gg.TYPE_DOUBLE)
   gg.toast("speed")
 
 goto sdone
