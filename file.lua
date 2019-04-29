@@ -1,6 +1,6 @@
 
 gg.alert("⚡🇧🇷 🇸 🇨 🇷 🇮 🇵 🇹  🇦 🇹 🇺 🇦 🇱 🇮 🇿 🇦 🇩 🇴🇧🇷⚡")
-gg.alert(" to editando uma parada nova horário: 02:47 da madrugada ")
+gg.alert(" to editando uma parada nova horário: 02:47 da madrugada att1: atualizei o correr pro lado as 03:37, altera manualmente o valor 3,25 para 10")
 goto START
 ::START::
 menu= gg.choice({
@@ -228,10 +228,7 @@ goto sdone
 ::SS18::
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
- gg.searchNumber("1.25;4.0;2.1;3;3.5;5.0::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("3.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1)
-  gg.editAll("10", gg.TYPE_DOUBLE)
+ gg.searchNumber("3.25;2.1;7::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
   gg.toast("aceleracao lateral")
 goto sdone
 
