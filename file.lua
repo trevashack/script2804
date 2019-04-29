@@ -1,5 +1,5 @@
 
-gg.alert("⚡ 🇸 🇨 🇷 🇮 🇵 🇹  🇦 🇹 🇺 🇦 🇱 🇮 🇿 🇦 🇩 🇴 ⚡")
+gg.alert("⚡🇧🇷 🇸 🇨 🇷 🇮 🇵 🇹  🇦 🇹 🇺 🇦 🇱 🇮 🇿 🇦 🇩 🇴🇧🇷⚡")
 goto START
 ::START::
 menu= gg.choice({
@@ -321,5 +321,5 @@ gg.getResults(10)
 goto sdone
 
 ::sdone::
-print('ⓒⓐⓝⓐⓛ ⓝⓞ ⓨⓞⓤⓣⓤⓑⓔ: ⓣⓡⓔⓥⓐⓢ ⓖⓞⓓ')
+print('🇧🇷ⓒⓐⓝⓐⓛ ⓝⓞ ⓨⓞⓤⓣⓤⓑⓔ: ⓣⓡⓔⓥⓐⓢ ⓖⓞⓓ🇧🇷')
 os.exit()
