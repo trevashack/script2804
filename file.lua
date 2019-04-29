@@ -71,7 +71,6 @@ gg.clearResults()
     print("addListItems: ", gg.addListItems(MX))
    gg.toast(''Radar Hack ativado com sucesso")
 goto sdone
-
 ::SS2::
   gg.clearResults()
   gg.searchNumber("40;2D;3;0.5;0.2::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
@@ -79,7 +78,6 @@ goto sdone
 gg.toast("Super Pulo")
 gg.toast("Alterar manualmente o 3 para 6")
 goto sdone
-
 ::SS3::
   gg.clearResults()
   gg.setRanges(gg.REGION_C_ALLOC)
@@ -89,7 +87,6 @@ goto sdone
   gg.editAll("4", gg.TYPE_DOUBLE)
   gg.toast("Recarregar rápido")
 goto sdone
-
 ::SS4::
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
@@ -99,7 +96,6 @@ gg.getResults(100)
 gg.editAll("99999999", gg.TYPE_FLOAT)
 gg.toast("M4AIMBOT")
 goto sdone
-
 ::SS5::
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
@@ -107,9 +103,7 @@ gg.searchNumber("50.0F;-1D;0.5F;-1D;0.20000000298F:17", gg.TYPE_FLOAT, false, gg
 gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(10)
 gg.editAll("999", gg.TYPE_FLOAT)
-
 goto sdone
-
 ::SS6::
 gg.clearResults()
  gg.setRanges(gg.REGION_CODE_APP | gg.REGION_CODE_SYS)
@@ -125,21 +119,17 @@ gg.editAll(999, gg.TYPE_FLOAT)
 gg.clearResults()
 gg.toast('CanalYT: Trevas Hacks')
 goto sdone
-
 ::SS7::
   gg.clearResults()
   gg.setRanges(gg.REGION_C_ALLOC)
 	 gg.searchNumber("3.5E;2.7E;1.8E;0.0154E::512", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.toast("M4 no recoil")
 goto sdone
-
-
 ::SS8::
 gg.setRanges(gg.REGION_C_ALLOC)
   gg.searchNumber("0.016E;-0.0695E;-0.0796E;2.3E;2.2E;1.7E::512", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 	gg.toast("ak-47 no recoil")
 goto sdone
-
 ::SS9::
 gg.clearResults()
   gg.setRanges(gg.REGION_C_DATA)
@@ -150,7 +140,6 @@ gg.clearResults()
   gg.clearResults()
   gg.toast("CARRO GASOLINA INFINITA")
 goto sdone
-
 ::SS10::
 gg.clearResults()
 gg.setRanges(gg.REGION_C_BSS)
@@ -160,7 +149,6 @@ var = gg.getResults(50)
 gg.editAll("4",gg.POINTER_WRITABLE)
   gg.toast("Gigante")
 goto sdone
-
 ::SS11::
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
@@ -169,7 +157,6 @@ gg.searchNumber("0.2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(2)
 gg.toast("Escalar parede")
 goto sdone
-
 ::SS12::
   gg.clearResults()
  gg.setRanges(gg.REGION_BAD)
@@ -179,7 +166,6 @@ gg.getResults(100)
 gg.editAll("90", gg.TYPE_FLOAT)
 gg.toast("Wall hack SNAPDRAGON 625-636")
 goto sdone
-
 ::SS13::
 gg.clearResults()
   gg.setRanges(gg.REGION_C_ALLOC)
@@ -187,7 +173,6 @@ gg.clearResults()
 gg.searchNumber("3;6;8", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(3)
 goto sdone
-
 ::SS14::
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
@@ -197,7 +182,6 @@ gg.getResults(100)
 gg.editAll("0.00949999978", gg.TYPE_FLOAT)
 gg.toast("Entrar embaixo do subsolo")
 goto sdone
-
 ::SS15::
   gg.clearResults()
   gg.setRanges(gg.REGION_C_ALLOC)
@@ -205,9 +189,7 @@ goto sdone
 gg.searchNumber("0.1", gg.TYPE_DOUBLE, false, gg.SIGN_DOUBLE, 0, -1)
     gg.getResults(2)
     gg.editAll("9999", gg.TYPE_DOUBLE)
-
 goto sdone
-
 ::SS16::
 gg.clearResults()
   gg.setRanges(gg.REGION_C_ALLOC)
@@ -216,33 +198,27 @@ gg.clearResults()
   gg.getResults(20)
   gg.editAll("0", gg.TYPE_DWORD)
 goto sdone
-
 ::SS17::
   gg.clearResults()
   gg.setRanges(gg.REGION_C_ALLOC)
   gg.searchNumber("200;1.6;4.9e-324;2.09375F;2.5;2.0625F;4.4::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-
     gg.searchNumber("2.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
     gg.getResults(2)
     gg.editAll("10", gg.TYPE_DOUBLE)
     gg.toast("Acelerar natação")
 goto sdone
-
 ::SS18::
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
  gg.searchNumber("3.25;2.1;7::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
   gg.toast("aceleracao lateral")
 goto sdone
-
 ::SS19::
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
  gg.searchNumber("1.25;3;6.25;2.1;7.0::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
   gg.toast("speed")
-
 goto sdone
-
 ::SS20::
 gg.clearResults()
   gg.setRanges(gg.REGION_C_ALLOC)
@@ -262,7 +238,6 @@ gg.searchNumber("0.40000000596",gg.POINTER_WRITABLE,false,gg.SIGN_FUZZY_EQUAL,0,
 gg.getResults(15)
 gg.editAll('-0,02679999918')
 goto sdone
-
 ::SS22::
 gg.clearResults()
 gg.clearResults()
@@ -278,13 +253,10 @@ gg.searchNumber('2',gg.TYPE_FLOAT, false, gg.SIGN_EQUAL,0,-1)
 gg.getResults(20)
 gg.editAll('15', gg.TYPE_FLOAT)
 goto sdone
-
 ::SS23::
 gg.setRanges(gg.REGION_C_ALLOC)
   gg.searchNumber("65,543D;5D;0.0078125E;0.01999999955F;2.0F::512", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-
 goto sdone
-
 ::SS24::
  gg.clearResults()
   gg.setRanges(gg.REGION_C_ALLOC)
@@ -293,7 +265,6 @@ goto sdone
   gg.getResults(1)
 gg.editAll(2)
 goto sdone
-
 ::SS25::
 gg.clearResults()
   gg.setRanges(gg.REGION_C_ALLOC)
@@ -302,7 +273,6 @@ gg.clearResults()
   gg.getResults(5)
   gg.toast("xd")
 goto sdone
-
 ::SS26::
 gg.clearResults()
 gg.setRanges(gg.REGION_C_BSS)
@@ -311,7 +281,6 @@ gg.searchNumber("10000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(15)
 gg.editAll("0", gg.TYPE_FLOAT)
 goto sdone
-
 ::SS27::
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
@@ -319,7 +288,6 @@ gg.searchNumber("\194\1600.70710682869;0.0078125E;1;0.00999999978;0.70710682869;
 gg.searchNumber("1", gg.TYPE_FLOAT)
 gg.getResults(10)
 goto sdone
-
 ::sdone::
 print('♠🇧🇷ⓒⓐⓝⓐⓛ ⓝⓞ ⓨⓞⓤⓣⓤⓑⓔ: ⓣⓡⓔⓥⓐⓢ ⓖⓞⓓ🇧🇷♠')
 print(' ──▄────▄▄▄▄▄▄▄────▄───
