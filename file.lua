@@ -321,5 +321,5 @@ gg.getResults(10)
 goto sdone
 
 ::sdone::
-print('Trevas Hacks')
+print('ⓒⓐⓝⓐⓛ ⓝⓞ ⓨⓞⓤⓣⓤⓑⓔ: ⓣⓡⓔⓥⓐⓢ ⓖⓞⓓ')
 os.exit()
