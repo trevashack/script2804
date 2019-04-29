@@ -1,8 +1,9 @@
-gg.alert("♠🇧🇷ᔕᑕᖇƗᑭƬ ᗩƬᑌᗩᒪƗ乙ᗩÐ〇🇧🇷♠")
+gg.alert("⚡🇧🇷 🇸 🇨 🇷 🇮 🇵 🇹  🇦 🇹 🇺 🇦 🇱 🇮 🇿 🇦 🇩 🇴🇧🇷⚡")
+gg.alert("Atualizei o speed, quando for ativar eu acho melhor jogar uma partida primeiro, ele não tá aparecendo valores, creio que ele aparece após jogar algumas")
 goto START
 ::START::
 menu= gg.choice({
-,'➀.♠ʀᴀᴅᴀʀ ʜᴀᴄᴋ(ᴀᴛɪᴠᴀʀ ɴᴏ ʟᴏʙʙʏ)♠'
+'➀.♠ʀᴀᴅᴀʀ ʜᴀᴄᴋ(ᴀᴛɪᴠᴀʀ ɴᴏ ʟᴏʙʙʏ)♠'
 ,'➁.♠sᴜᴘᴇʀ ᴘᴜʟᴏ(ᴀʟᴛᴇʀᴀʀ ᴍᴀɴᴜᴀʟᴍᴇɴᴛᴇ ᴏ ᴠᴀʟᴏʀ 3 ᴘᴀʀᴀ 6)♠'
 ,'➂.♠ʀᴇᴄᴀʀʀᴇɢᴀʀ ᴇᴍ 1sᴇɢᴜɴᴅᴏ♠'
 ,'➃.♠ᴍ4ᴀ1 ᴀɪᴍʙᴏᴛ(ᴀᴛɪᴠᴇ ᴄᴏᴍ ᴀ ᴍ4ᴀ1 ᴇᴍ ᴍᴀᴏs)♠'
@@ -19,7 +20,7 @@ menu= gg.choice({
 ,'➀➄.♠ᴀᴛɪᴠᴀʀ ᴀɴᴛᴇs ᴅᴏ sᴘᴇᴇᴅ, ᴇssᴇ sᴇʀᴠᴇ ᴘᴀʀᴀ ᴏ sᴘᴇᴇᴅ ɴᴀᴏ ғɪᴄᴀʀ ᴠᴏʟᴛᴀɴᴅᴏ ᴘᴀʀᴀ ᴛʀᴀs♠'
 ,'➀➅.♠ʀᴇᴍᴏᴠᴇʀ ɢʀᴀᴍᴀ♠'
 ,'➀➆.♠ᴀᴄᴇʟᴇʀᴀçᴀᴏ ᴅᴇ ɴᴀᴛᴀçãᴏ♠'
-,'➀➇.♠ᴀᴄᴇʟᴇʀᴀçᴀᴏ ᴅᴏ ᴘᴇʀsᴏɴᴀɢᴇᴍ ᴘᴀʀᴀ ᴛʀᴀs♠'
+,'➀➇.♠ᴀᴄᴇʟᴇʀᴀçᴀᴏ ᴅᴏ ᴘᴇʀsᴏɴᴀɢᴇᴍ ᴘᴀʀᴀ ᴛʀᴀs(ᴇᴍ ʙᴀɴ)♠'
 ,'➀➈.♠sᴘᴇᴇᴅ ʜᴀᴄᴋ ᴄᴏᴍ ᴀʀᴍᴀ ɴᴀ ᴍᴀᴏ♠'
 ,'➁⓪.♠ʟᴏᴏᴛᴇᴀʀ ᴀ ᴜᴍᴀ ᴅɪsᴛᴀɴᴄɪᴀ ᴍᴀɪᴏʀ♠'
 ,'➁➀.♠ᴘᴇʀsᴏɴᴀɢᴇᴍ ᴀᴛʀᴀᴠᴇssᴀ ᴘᴀʀᴇᴅᴇ(1x ᴘᴏʀ ᴘᴀʀᴛɪᴅᴀ)♠'
@@ -204,6 +205,7 @@ goto sdone
 gg.searchNumber("0.1", gg.TYPE_DOUBLE, false, gg.SIGN_DOUBLE, 0, -1)
     gg.getResults(2)
     gg.editAll("9999", gg.TYPE_DOUBLE)
+
 goto sdone
 
 ::SS16::
@@ -219,6 +221,7 @@ goto sdone
   gg.clearResults()
   gg.setRanges(gg.REGION_C_ALLOC)
   gg.searchNumber("200;1.6;4.9e-324;2.09375F;2.5;2.0625F;4.4::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+
     gg.searchNumber("2.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
     gg.getResults(2)
     gg.editAll("10", gg.TYPE_DOUBLE)
@@ -237,6 +240,7 @@ gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
  gg.searchNumber("1.25;3;6.25;2.1;7.0::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
   gg.toast("speed")
+
 goto sdone
 
 ::SS20::
@@ -278,6 +282,7 @@ goto sdone
 ::SS23::
 gg.setRanges(gg.REGION_C_ALLOC)
   gg.searchNumber("65,543D;5D;0.0078125E;0.01999999955F;2.0F::512", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+
 goto sdone
 
 ::SS24::
@@ -317,6 +322,10 @@ goto sdone
 
 ::sdone::
 print('♠🇧🇷ⓒⓐⓝⓐⓛ ⓝⓞ ⓨⓞⓤⓣⓤⓑⓔ: ⓣⓡⓔⓥⓐⓢ ⓖⓞⓓ🇧🇷♠')
+print(' ──▄────▄▄▄▄▄▄▄────▄───
+        ─▀▀▄─▄█████████▄─▄▀▀──
+        ─────██─▀███▀─██──────
+        ───▄─▀████▀████▀─▄────
+        ─▀█────██▀█▀██────█▀──')
 os.exit()
-
 
