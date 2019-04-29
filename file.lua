@@ -1,5 +1,5 @@
-gg.alert(" 🇸 🇨 🇷 🇮 🇵 🇹  🇦 🇹 🇺 🇦 🇱 🇮 🇿 🇦 🇩 🇴 ")
-gg.alert("Atualizei o speed, quando for ativar eu acho melhor jogar uma partida primeiro, ele não tá aparecendo valores, creio que ele aparece após jogar algumas")
+gg.alert("🇸 🇨 🇷 🇮 🇵 🇹 - 🇦 🇹 🇺 🇦 🇱 🇮 🇿 🇦 🇩 🇴")
+
 goto START
 ::START::
 menu= gg.choice({
