@@ -1,5 +1,5 @@
 
-gg.alert("⚡🇸 🇨 🇷 🇮 🇵 🇹  🇦 🇹 🇺 🇦 🇱 🇮 🇿 🇦 🇩 🇴  🇩 🇮 🇦 ➁➇/⓪➃⚡")
+gg.alert("⚡ 🇸 🇨 🇷 🇮 🇵 🇹  🇦 🇹 🇺 🇦 🇱 🇮 🇿 🇦 🇩 🇴 ⚡")
 goto START
 ::START::
 menu= gg.choice({
