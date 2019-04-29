@@ -3,7 +3,7 @@ gg.alert("Atualizei o speed, quando for ativar eu acho melhor jogar uma partida 
 goto START
 ::START::
 menu= gg.choice({
-,'➀.♠ʀᴀᴅᴀʀ ʜᴀᴄᴋ(ᴀᴛɪᴠᴀʀ ɴᴏ ʟᴏʙʙʏ)♠'
+'➀.♠ʀᴀᴅᴀʀ ʜᴀᴄᴋ(ᴀᴛɪᴠᴀʀ ɴᴏ ʟᴏʙʙʏ)♠'
 ,'➁.♠sᴜᴘᴇʀ ᴘᴜʟᴏ(ᴀʟᴛᴇʀᴀʀ ᴍᴀɴᴜᴀʟᴍᴇɴᴛᴇ ᴏ ᴠᴀʟᴏʀ 3 ᴘᴀʀᴀ 6)♠'
 ,'➂.♠ʀᴇᴄᴀʀʀᴇɢᴀʀ ᴇᴍ 1sᴇɢᴜɴᴅᴏ♠'
 ,'➃.♠ᴍ4ᴀ1 ᴀɪᴍʙᴏᴛ(ᴀᴛɪᴠᴇ ᴄᴏᴍ ᴀ ᴍ4ᴀ1 ᴇᴍ ᴍᴀᴏs)♠'
