@@ -235,7 +235,7 @@ goto sdone
 ::SS19::
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
- gg.searchNumber("6.25;2.1;7.0::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+ gg.searchNumber("1.25;3;6.25;2.1;7.0::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
   gg.toast("speed")
 
 goto sdone
