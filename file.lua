@@ -197,11 +197,11 @@ goto sdone
 ::SS15::
   gg.clearResults()
   gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("1.58;23;1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1)
-  gg.editAll("8", gg.TYPE_DOUBLE)
-  gg.toast("Acelerar carro")
+  gg.searchNumber("0.25;0.625;0.1;0.5;1;2::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.1", gg.TYPE_DOUBLE, false, gg.SIGN_DOUBLE, 0, -1)
+    gg.getResults(2)
+    gg.editAll("9999", gg.TYPE_DOUBLE)
+
 goto sdone
 
 ::SS16::
