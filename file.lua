@@ -1,6 +1,5 @@
 gg.alert("🇸 🇨 🇷 🇮 🇵 🇹 - 🇦 🇹 🇺 🇦 🇱 🇮 🇿 🇦 🇩 🇴")
-gg.alert(" Coloquei um ✓ pra os que foram testados ")
-
+gg.alert(" Coloquei um ✓ nos hacks que foram testados, os que não tão marcados podem não funcionar ou poderá ter risco de ban")
 goto START
 ::START::
 menu= gg.choice({
@@ -31,7 +30,7 @@ menu= gg.choice({
 ,'➁➄.♠ᴇɴᴛʀᴀʀ ᴇᴍʙᴀɪxᴏ ᴅᴀ ᴛᴇʀʀᴀ 1(ᴀᴛɪᴠᴀʀ ᴀɴᴛᴇs ᴅᴀ ᴛᴇʟᴀ ᴅᴇ ʟᴏɢɪɴ ᴇ ᴀᴛɪᴠᴀʀ ᴏ ᴠᴀʟᴏʀ 9,8 ᴘᴀʀᴀ 0)✓♠'
 ,'➁➅.♠ᴇɴᴛʀᴀʀ ᴇᴍʙᴀɪxᴏ ᴅᴀ ᴛᴇʀʀᴀ 2(ᴀᴛɪᴠᴀʀ ɴᴀ ᴛᴇʟᴀ ᴅᴇ ʟᴏɢɪɴ)✓♠'
 ,'➁➆.♠ᴇɴᴛʀᴀʀ ᴇᴍʙᴀɪxᴏ ᴅᴀ ᴛᴇʀʀᴀ 3(ᴀᴛɪᴠᴀʀ ɴᴀ ᴘᴀʀᴛɪᴅᴀ)✓♠'
-,'➁➇.♠ʙᴀʟᴀ ᴀᴛʀᴀᴠᴇssᴀ ᴘᴀʀᴇᴅᴇ(somente a parede)✓ ♠
+,'➁➇.♠ʙᴀʟᴀ ᴀᴛʀᴀᴠᴇssᴀ ᴘᴀʀᴇᴅᴇ(somente a parede)✓♠'
 ,'Exit'},nil,'♠ⓣⓡⓔⓥⓐⓢ ⓗⓐⓒⓚⓢ ➀/➄♠')
 
 if menu == 1 then goto SS1 end
