@@ -1,5 +1,5 @@
 gg.alert("🇸 🇨 🇷 🇮 🇵 🇹 - 🇦 🇹 🇺 🇦 🇱 🇮 🇿 🇦 🇩 🇴")
-gg.alert(" Coloquei um ✓ pra os que foram testados "
+gg.alert(" Coloquei um ✓ pra os que foram testados ")
 
 goto START
 ::START::
