@@ -308,7 +308,7 @@ goto sdone
 ::SS29:
 gg.setRanges(gg.REGION_CODE_APP)
 gg.searchNumber("0.002", gg.TYPE_FLOAT)
-gg.EditAll("0", gg.TYPE_FLOAT)
+gg.editAll("0", gg.TYPE_FLOAT)
 gg.toast('Sem névoa')
 gg.clearResults()
 goto sdone
@@ -316,7 +316,7 @@ goto sdone
 ::SS30::
 gg.setRanges(gg.REGION_CODE_APP)
 gg.searchNumber("0.09", gg.TYPE_FLOAT)
-gg.EditAll("-99", gg.TYPE_FLOAT)
+gg.editAll("-99", gg.TYPE_FLOAT)
 gg.toast('Céu negro')
 gg.clearResults()
 goto sdone
@@ -324,7 +324,7 @@ goto sdone
 ::SS31::
 gg.setRanges(gg.REGION_BAD)
 gg.searchNumber("3.62945556641", gg.TYPE_FLOAT)
-gg.EditAll("991231512", gg.TYPE_FLOAT)
+gg.editAll("991231512", gg.TYPE_FLOAT)
 gg.toast("chams")
 gg.clearResults()
 goto sdone
