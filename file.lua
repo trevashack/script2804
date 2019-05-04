@@ -1,5 +1,5 @@
 gg.alert("🇸 🇨 🇷 🇮 🇵 🇹 - 🇦 🇹 🇺 🇦 🇱 🇮 🇿 🇦 🇩 🇴")
-gg.alert("ADICIONEI +3 HACKS")
+gg.alert("Atualizei os speeds, podem usar")
 goto START
 ::START::
 menu= gg.choice({
@@ -99,7 +99,8 @@ gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("16D;1717986918D;1.67499995232", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("1.67499995232", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
+gg.getResults(10)
+gg.editAll("100000000", gg.TYPE_FLOAT)
 gg.toast("M4AIMBOT")
 goto sdone
 ::SS5::
@@ -202,7 +203,8 @@ gg.clearResults()
   gg.searchNumber("10D;5,126D;3D;11D;32D;4D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.searchNumber("10", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(20)
-  gg.toast('alterar manualmente para 0')
+  gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
 goto sdone
 ::SS17::
   gg.clearResults()
@@ -216,14 +218,18 @@ goto sdone
 ::SS18::
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
- gg.searchNumber("3.25;2.1;7::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-  gg.toast("aceleracao lateral")
+gg.searchNumber("3.5;2.1875F;5;3D:21", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("3.5;5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(2)
+gg.editAll("10", gg.TYPE_DOUBLE)
 goto sdone
 ::SS19::
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
- gg.searchNumber("1.25;3;6.25;2.1;7.0::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-  gg.toast("speed")
+gg.searchNumber("4.9e-324E;1E;1.875;0.0001E;4.9e-324E;1.5E;1,073,217,536D:41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.875", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("1.9", gg.TYPE_FLOAT)
 goto sdone
 ::SS20::
 gg.clearResults()
