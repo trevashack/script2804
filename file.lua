@@ -203,7 +203,7 @@ gg.clearResults()
   gg.searchNumber("10D;5,126D;3D;11D;32D;4D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.searchNumber("10", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(20)
-  gg.editAll("0", gg.TYPE_DWORD)
+  gg.toast('alterar manualmente para 0')
 goto sdone
 ::SS17::
   gg.clearResults()
@@ -308,6 +308,7 @@ goto sdone
 ::SS29::
 gg.setRanges(gg.REGION_CODE_APP)
 gg.searchNumber("0.002", gg.TYPE_FLOAT)
+gg.getResults(30)
 gg.editAll("0", gg.TYPE_FLOAT)
 gg.toast('Sem névoa')
 gg.clearResults()
@@ -316,6 +317,7 @@ goto sdone
 ::SS30::
 gg.setRanges(gg.REGION_CODE_APP)
 gg.searchNumber("0.09", gg.TYPE_FLOAT)
+gg.getResults(30)
 gg.editAll("-99", gg.TYPE_FLOAT)
 gg.toast('Céu negro')
 gg.clearResults()
@@ -324,6 +326,7 @@ goto sdone
 ::SS31::
 gg.setRanges(gg.REGION_BAD)
 gg.searchNumber("3.62945556641", gg.TYPE_FLOAT)
+gg.getResults(30)
 gg.editAll("991231512", gg.TYPE_FLOAT)
 gg.toast("chams")
 gg.clearResults()
