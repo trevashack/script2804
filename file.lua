@@ -33,7 +33,7 @@ menu= gg.choice({
 ,'➁➇.♦ʙᴀʟᴀ ᴀᴛʀᴀᴠᴇssᴀ ᴘᴀʀᴇᴅᴇ(somente a parede)♦'
 ,'➁➈.♠ᴍᴀᴘᴀ sᴇᴍ ɴᴇᴠᴏᴀ♠'
 ,'➂⓪.♦ᴍᴀᴘᴀ ᴄᴏᴍ ᴄᴇᴜ ᴇsᴄᴜʀᴏ♦'
-,'➂➀.♠ᴄᴏʀ ɴᴏ ᴘᴇʀsᴏɴᴀɢᴇᴍ(ᴄʜᴀᴍs)♠
+,'➂➀.♠ᴄᴏʀ ɴᴏ ᴘᴇʀsᴏɴᴀɢᴇᴍ(ᴄʜᴀᴍs)-> Talvez seja necessário um CPU adequado♠'
 ,'Exit'},nil,'♠ⓣⓡⓔⓥⓐⓢ ⓗⓐⓒⓚⓢ ➂/➄♠')
 
 if menu == 1 then goto SS1 end
