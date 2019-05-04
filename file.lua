@@ -327,7 +327,7 @@ goto sdone
 gg.setRanges(gg.REGION_BAD)
 gg.searchNumber("3.62945556641", gg.TYPE_FLOAT)
 gg.getResults(30)
-gg.editAll("991231512", gg.TYPE_FLOAT)
+gg.editAll("991232519", gg.TYPE_FLOAT)
 gg.toast("chams")
 gg.clearResults()
 goto sdone
