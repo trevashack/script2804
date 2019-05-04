@@ -1,4 +1,5 @@
 gg.alert("🇸 🇨 🇷 🇮 🇵 🇹 - 🇦 🇹 🇺 🇦 🇱 🇮 🇿 🇦 🇩 🇴")
+gg.alert("ADICIONEI +3 HACKS")
 goto START
 ::START::
 menu= gg.choice({
@@ -304,10 +305,11 @@ gg.toast('Bala atravessa parede ativado com sucesso')
 gg.clearResults()
 goto sdone
 
-::SS29:
+::SS29::
 gg.setRanges(gg.REGION_CODE_APP)
 gg.searchNumber("0.002", gg.TYPE_FLOAT)
 gg.editAll("0", gg.TYPE_FLOAT)
+gg.toast('Sem névoa')
 gg.clearResults()
 goto sdone
 
@@ -315,6 +317,7 @@ goto sdone
 gg.setRanges(gg.REGION_CODE_APP)
 gg.searchNumber("0.09", gg.TYPE_FLOAT)
 gg.editAll("-99", gg.TYPE_FLOAT)
+gg.toast('Céu negro')
 gg.clearResults()
 goto sdone
 
@@ -322,9 +325,11 @@ goto sdone
 gg.setRanges(gg.REGION_BAD)
 gg.searchNumber("3.62945556641", gg.TYPE_FLOAT)
 gg.editAll("991231512", gg.TYPE_FLOAT)
+gg.toast("chams")
 gg.clearResults()
 goto sdone
 
 ::sdone::
 print('🇧🇷ⓒⓐⓝⓐⓛ ⓝⓞ ⓨⓞⓤⓣⓤⓑⓔ: ⓣⓡⓔⓥⓐⓢ ⓖⓞⓓ🇧🇷')
+gg.clearResults()
 os.exit()
