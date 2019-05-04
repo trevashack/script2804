@@ -1,5 +1,5 @@
 gg.alert("🇸 🇨 🇷 🇮 🇵 🇹 - 🇦 🇹 🇺 🇦 🇱 🇮 🇿 🇦 🇩 🇴")
-gg.alert("ADICIONEI +2 HACKS")
+gg.alert("ADICIONEI +3 HACKS")
 goto START
 ::START::
 menu= gg.choice({
@@ -33,6 +33,7 @@ menu= gg.choice({
 ,'➁➇.♦ʙᴀʟᴀ ᴀᴛʀᴀᴠᴇssᴀ ᴘᴀʀᴇᴅᴇ(somente a parede)♦'
 ,'➁➈.♠ᴍᴀᴘᴀ sᴇᴍ ɴᴇᴠᴏᴀ♠'
 ,'➂⓪.♦ᴍᴀᴘᴀ ᴄᴏᴍ ᴄᴇᴜ ᴇsᴄᴜʀᴏ♦'
+,'➂➀.♠ᴄᴏʀ ɴᴏ ᴘᴇʀsᴏɴᴀɢᴇᴍ(ᴄʜᴀᴍs)♠
 ,'Exit'},nil,'♠ⓣⓡⓔⓥⓐⓢ ⓗⓐⓒⓚⓢ ➂/➄♠')
 
 if menu == 1 then goto SS1 end
@@ -65,6 +66,7 @@ if menu == 27 then goto SS27 end
 if menu == 28 then goto SS28 end
 if menu == 29 then goto SS29 end
 if menu == 30 then goto SS30 end
+if menu == 31 then goto SS31 end
 goto sdone
 
 ::SS1::
@@ -317,6 +319,15 @@ gg.searchNumber("0.09", gg.TYPE_FLOAT)
 gg.EditAll("-99", gg.TYPE_FLOAT)
 gg.toast('Céu negro')
 gg.clearResults()
+goto sdone
+
+::SS31::
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("3.62945556641", gg.TYPE_FLOAT)
+gg.EditAll("991231512", gg.TYPE_FLOAT)
+gg.toast("chams")
+gg.clearResults()
+goto sdone
 
 ::sdone::
 print('🇧🇷ⓒⓐⓝⓐⓛ ⓝⓞ ⓨⓞⓤⓣⓤⓑⓔ: ⓣⓡⓔⓥⓐⓢ ⓖⓞⓓ🇧🇷')
