@@ -100,7 +100,6 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("16D;1717986918D;1.67499995232", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("1.67499995232", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(100)
-gg.editAll("99999999", gg.TYPE_FLOAT)
 gg.toast("M4AIMBOT")
 goto sdone
 ::SS5::
