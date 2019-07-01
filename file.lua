@@ -1,22 +1,23 @@
-gg.alert("SCRIPT EM ATUALIZAÇÃO, AGUARDE")
+gg.alert("SCRIPT EM ATUALIZAÇÃO, AGUARDE, ATUALIZAÇÃO COMPLETA DIA 08/07")
+gg.alert("Alguns novos por enquanto pode banir, ainda estou testando")
 goto START
 ::START::
 menu= gg.choice({
-'➀.♦ʀᴀᴅᴀʀ ʜᴀᴄᴋ(ᴀᴛɪᴠᴀʀ ɴᴏ ʟᴏʙʙʏ)♦'
-,'➁.♠sᴜᴘᴇʀ ᴘᴜʟᴏ(ᴀʟᴛᴇʀᴀʀ ᴍᴀɴᴜᴀʟᴍᴇɴᴛᴇ ᴏ ᴠᴀʟᴏʀ 3 ᴘᴀʀᴀ 6)♠'
-,'➂.♦ʀᴇᴄᴀʀʀᴇɢᴀʀ ᴇᴍ 1sᴇɢᴜɴᴅᴏ♦'
+'➀.♦NOVO, POR FAVOR TESTE♦'
+,'➁.♠ENTRAR EMBAIXO DA TERRA EM TESTE♠'
+,'➂.♦AO MIRAR, A ARMA FICA NO CÉU (ALGUNS CELULARES DÃO BAN, TESTE!)♦'
 ,'➃.♠ᴍ4ᴀ1 ᴀɪᴍʙᴏᴛ(ᴀᴛɪᴠᴇ ᴄᴏᴍ ᴀ ᴍ4ᴀ1 ᴇᴍ ᴍᴀᴏs)♠'
 ,'➄.♦ᴘᴜʟᴀʀ ɪɴғɪɴɪᴛᴀs ᴠᴇᴢᴇs ɴᴏ ᴀʀ♦'
 ,'➅.♠ʙᴀʟᴀ ᴀᴛʀᴀᴠᴇssᴀ ᴘᴀʀᴇᴅᴇ(ɴᴏᴠᴏ)♠'
-,'➆.♦ᴍ4 ɴᴏ ʀᴇᴄᴏɪʟ(ᴀᴛɪᴠᴀʀ ɴᴀ ᴛᴇʟᴀ ᴅᴇ ʟᴏɢɪɴ ᴇ ᴀʟᴛᴇʀᴀʀ ᴛᴏᴅᴏs ᴏs ᴠᴀʟᴏʀᴇs ᴘᴀʀᴀ 0 ᴍᴀɴᴜᴀʟᴍᴇɴᴛᴇ)♦'
-,'➇.♠ᴀᴋ ɴᴏ ʀᴇᴄᴏɪʟ(ᴀᴛɪᴠᴀʀ ɴᴀ ᴛᴇʟᴀ ᴅᴇ ʟᴏɢɪɴ ᴇ ᴀʟᴛᴇʀᴀʀ ᴛᴏᴅᴏs ᴏs ᴠᴀʟᴏʀᴇs ᴘᴀʀᴀ 0 ᴍᴀɴᴜᴀʟᴍᴇɴᴛᴇ)♠'
+,'➆.♦ACELERAR SALTO♦'
+,'➇.♠PODER DE PULO♠'
 ,'➈.♦ɢᴀsᴏʟɪɴᴀ ɪɴғɪɴɪᴛᴀ♦'
-,'➀⓪.♠ɢɪɢᴀɴᴛᴇ♠'
-,'➀➀.♦ᴇsᴄᴀʟᴀʀ ᴘᴀʀᴇᴅᴇ♦'
-,'➀➁.♠ᴡᴀʟʟʜᴀᴄᴋ(sɴᴀᴘᴅʀᴀɢᴏɴ625-636)♠'
-,'➀➂.♦ʀᴇᴄᴜᴘᴇʀᴀçᴀᴏ ɪᴍᴇᴅɪᴀᴛᴀ(ᴀᴛɪᴠᴀʀ ɴᴀ ᴛᴇʟᴀ ᴅᴇ ʟᴏɢɪɴ, sᴇ ᴀᴘᴀʀᴇᴄᴇʀ sᴏᴍᴇɴᴛᴇ 3 ᴠᴀʟᴏʀᴇs, ᴀʟᴛᴇʀᴇ ᴛᴏᴅᴏs ᴘᴀʀᴀ 0)♦'
-,'➀➃.♠ᴇɴᴛʀᴀʀ ᴇᴍʙᴀɪxᴏ ᴅᴀ ᴛᴇʀʀᴀ(ᴜɴᴅᴇʀɢʀᴏᴜɴᴅ)♠'
-,'➀➄.♦ᴀᴛɪᴠᴀʀ ᴀɴᴛᴇs ᴅᴏ sᴘᴇᴇᴅ, ᴇssᴇ sᴇʀᴠᴇ ᴘᴀʀᴀ ᴏ sᴘᴇᴇᴅ ɴᴀᴏ ғɪᴄᴀʀ ᴠᴏʟᴛᴀɴᴅᴏ ᴘᴀʀᴀ ᴛʀᴀs♦'
+,'➀⓪.♠ɢɪɢᴀɴᴛᴇ NOVO EM TESTE♠'
+,'➀➀.♦SALTO INFINITO♦'
+,'➀➁.♠WALL HACK PARA TODOS TELEFONES♠'
+,'➀➂.♦CURAR INSTANTANEO ( ISOTONICO, ETC,) (NOVO), (ATIVAR ANTES DA TELA DE LOGIN, VAI APARECER UMA TELA PRETA AI VC ATIVAR, DEPOIS ALTERE OS VALORES PARA 0, TEM QUE SER GERADO APENAS 3 VALORES♦'
+,'➀➃.♠ACELERAÇÃO DE CARRO ( EM TESTE )♠'
+,'➀➄.♦HACK NOVO( CASO APARECER ALGUM PLAYER PERTO, VOCê É EMPURRADO PARA LONGE DELE, TIPO UMA DETECÇÃO)♦'
 ,'➀➅.♦ʀᴇᴍᴏᴠᴇʀ ɢʀᴀᴍᴀ♦'
 ,'➀➆.♠ᴀᴄᴇʟᴇʀᴀçᴀᴏ ᴅᴇ ɴᴀᴛᴀçãᴏ♠'
 ,'➀➇.♦ᴀᴄᴇʟᴇʀᴀçᴀᴏ ᴅᴏ ᴘᴇʀsᴏɴᴀɢᴇᴍ ᴘᴀʀᴀ ᴛʀᴀs♦'
@@ -70,19 +71,19 @@ goto sdone
 
 ::SS1::
 gg.clearResults()
-   gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("0.6;4.9e-324E;20;0.2;0.1::200", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("20", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-    gg.getResults(1)
-    gg.editAll("800", gg.TYPE_DOUBLE)
-    print("addListItems: ", gg.addListItems(MX))
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("0.70710682869F;0.0078125;1,065,353,216D;1F;0.62160998583F;0.00999999978F;0.20000000298F::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.0078125", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("60", gg.TYPE_DOUBLE)
 goto sdone
 ::SS2::
   gg.clearResults()
-  gg.searchNumber("40;2D;3;0.5;0.2::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
- gg.getResults(10)
-gg.toast("Super Pulo")
-gg.toast("Alterar manualmente o 3 para 6")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("20,351,020D;9.9999997e-21;1.0e10;20,349,990D", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.0e10", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(5)
+gg.editAll("0", gg.TYPE_FLOAT)
 goto sdone
 ::SS3::
   gg.clearResults()
@@ -126,15 +127,19 @@ gg.clearResults()
 gg.toast('CanalYT: Trevas Hacks')
 goto sdone
 ::SS7::
-  gg.clearResults()
+ gg.clearResults()
   gg.setRanges(gg.REGION_C_ALLOC)
-	 gg.searchNumber("3.5E;2.7E;1.8E;0.0154E::512", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.toast("M4 no recoil")
+  gg.searchNumber("2.4;0.8;0.0001", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("0.8", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(5)
+  gg.editAll("1.5", gg.TYPE_DOUBLE)
 goto sdone
 ::SS8::
 gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("0.016E;-0.0695E;-0.0796E;2.3E;2.2E;1.7E::512", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-	gg.toast("ak-47 no recoil")
+gg.searchNumber("40E;3.8E;4D;3E;2.125F::", gg.TYPE_DOBULE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("3", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(5)
+gg.editAll("5", gg.TYPE_DOUBLE)
 goto sdone
 ::SS9::
 gg.clearResults()
@@ -148,29 +153,29 @@ gg.clearResults()
 goto sdone
 ::SS10::
 gg.clearResults()
-gg.setRanges(gg.REGION_C_BSS)
-gg.searchNumber("10D;1;1",gg.POINTER_WRITABLE,false,gg.SIGN_FUZZY_EQUAL,0,-1)
-gg.searchNumber("1",gg.POINTER_WRITABLE,false,gg.SIGN_FUZZY_EQUAL,0,-1)
-var = gg.getResults(50)
-gg.editAll("4",gg.POINTER_WRITABLE)
+gg.clearResults()
+  gg.setRanges(gg.REGION_C_BSS)
+  gg.searchNumber("-1D;1D;-8,388,609D;-8,388,609D;-8,388,609D;2,139,095,039D;2,139,095,039D;2,139,095,039D;1;1;1;1,065,353,216D::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(3)
+  gg.editAll("4", gg.TYPE_FLOAT)
   gg.toast("Gigante")
 goto sdone
 ::SS11::
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("4.9e-324E;0.0078125E;1;0.20000000298;1.5F;65536D::500", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("0.2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-7;-10;1D;1D;50;0.5;1,045,220,557D", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(2)
-gg.toast("Escalar parede")
+gg.editAll("999", gg.TYPE_FLOAT)
 goto sdone
 ::SS12::
   gg.clearResults()
- gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("2.75000238419;2;-1.0;0.75;0.24899999797;0.99900001287::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("90", gg.TYPE_FLOAT)
-gg.toast("Wall hack SNAPDRAGON 625-636")
+ gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("100000;1203982336D;50000;-100000::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("100000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("0", gg.TYPE_FLOAT)
 goto sdone
 ::SS13::
 gg.clearResults()
@@ -182,19 +187,18 @@ goto sdone
 ::SS14::
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("6D;0.00999999978;1.5625;1::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("0.00999999978", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2.5e-323E;0.80000001192F;1.0F;0.80000001192F:25", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(100)
-gg.editAll("0.00949999978", gg.TYPE_FLOAT)
-gg.toast("Entrar embaixo do subsolo")
+gg.editAll("8000", gg.TYPE_FLOAT)
 goto sdone
 ::SS15::
   gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("0.25;0.625;0.1;0.5;1;2::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("0.1", gg.TYPE_DOUBLE, false, gg.SIGN_DOUBLE, 0, -1)
-    gg.getResults(2)
-    gg.editAll("9999", gg.TYPE_DOUBLE)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("2D;1.6;1D;0.3925;0.2::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.6", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("7.5", gg.TYPE_DOUBLE)
 goto sdone
 ::SS16::
 gg.clearResults()
