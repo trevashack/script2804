@@ -1,5 +1,4 @@
-gg.alert("🇸 🇨 🇷 🇮 🇵 🇹 - 🇦 🇹 🇺 🇦 🇱 🇮 🇿 🇦 🇩 🇴")
-gg.alert("Atualizei os speeds, podem usar")
+gg.alert("SCRIPT EM ATUALIZAÇÃO, AGUARDE")
 goto START
 ::START::
 menu= gg.choice({
