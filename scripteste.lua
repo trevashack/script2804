@@ -3,11 +3,12 @@ gg.alert('PODE HAVER INSTABILIDADE EM ALGUNS HACKS, ESTOU FAZENDO ALTERAÇÕES')
 goto START
 ::START::
 menu= gg.choice({
-'➀.♠WallHack Simples; FUNCIONANDO EM QUALQUER CELULAR♠'
-,'➁.♠ʙᴀʟᴀ ᴀᴛʀᴀᴠᴇssᴀ ᴘᴀʀᴇᴅᴇ♠'
+'➀.♠WallHack Simples; FUNCIONANDO EM QUALQUER CELULAR♠ - INOFENSIVO'
+,'➁.♠ʙᴀʟᴀ ᴀᴛʀᴀᴠᴇssᴀ ᴘᴀʀᴇᴅᴇ♠ - INOFENSIVO'
 ,'➂.♠Todas as armas sem recoil♠'
 ,'➃.♠SupremeHack - Ative por partida♠(ATIVE NA SALA DE TREINO E ATIRE EM UM BOT PARA VER OQUE ACONTECE)'
-,'➄.♠WallHack PRO♠ - Não funciona em todos os celulares, esse wall fica invisível somente as pessoas. UTILIZE A VERSÃO DO GG 82.1+'
+,'➄.♠WallHack PRO♠ - Não funciona em todos os celulares, esse wall fica invisível somente as pessoas. UTILIZE A VERSÃO DO GG 82.1+ - INOFENSIVO'
+,'➅.♠Personagem gigante♠ - INOFENSIVO'
 ,'Exit'},nil,'♠ⓣⓡⓔⓥⓐⓢ ⓗⓐⓒⓚⓢ ➁/➆♠')
 
 if menu == 1 then goto SS1 end
@@ -79,7 +80,12 @@ gg.editAll("130", gg.TYPE_FLOAT)
 goto sdone
 
 ::SS6::
-
+gg.clearResults()
+gg.setRanges(gg.REGION_C_BSS)
+gg.searchNumber("0.0078125E;1.0F;0.0078125E;1.0F;0.0078125E;1.0F;0.0078125E;1.0F:65", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(300)
+gg.editAll("3", gg.TYPE_FLOAT)
 goto sdone
 
 ::sdone::
