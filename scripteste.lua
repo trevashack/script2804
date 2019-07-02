@@ -1,14 +1,13 @@
+print('🇧🇷ⓒⓐⓝⓐⓛ ⓝⓞ ⓨⓞⓤⓣⓤⓑⓔ: ⓣⓡⓔⓥⓐⓢ ⓖⓞⓓ🇧🇷')
+print('ⓣⓡⓔⓥⓐⓢ ⓗⓐⓒⓚⓢ ➁/➆')
 gg.alert('CHEAT FOR TEST | HACK PARA TESTE | 2019')
-goto START
-::START::
 menu= gg.choice({
 '➀.♠WallHack Simples; FUNCIONANDO EM QUALQUER CELULAR♠ - INOFENSIVO'
 ,'➁.♠ʙᴀʟᴀ ᴀᴛʀᴀᴠᴇssᴀ ᴘᴀʀᴇᴅᴇ♠ - INOFENSIVO'
 ,'➂.♠Todas as armas sem recoil♠'
 ,'➃.♠SupremeHack♠ Ative por partida(ATIVE NA SALA DE TREINO E ATIRE EM UM BOT PARA VER OQUE ACONTECE)'
 ,'➄.♠WallHack PRO♠ (Não funciona em todos os celulares, esse wall fica invisível somente as pessoas)INOFENSIVO'
-,'➅.♠Personagem gigante♠ - INOFENSIVO'
-,'Exit'},nil,'♠ⓣⓡⓔⓥⓐⓢ ⓗⓐⓒⓚⓢ ➁/➆♠')
+,'➅.♠Personagem gigante♠ - INOFENSIVO'})
 
 if menu == 1 then goto SS1 end
 if menu == 2 then goto SS2 end
@@ -16,7 +15,7 @@ if menu == 3 then goto SS3 end
 if menu == 4 then goto SS4 end
 if menu == 5 then goto SS5 end
 if menu == 6 then goto SS6 end
-goto sdone
+ os.exit()
 
 ::SS1::
 gg.clearResults()
@@ -25,7 +24,7 @@ gg.searchNumber("100000;1203982336D;50000;-100000::", gg.TYPE_FLOAT, false, gg.S
 gg.searchNumber("100000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(20)
 gg.editAll("0", gg.TYPE_FLOAT)
-goto sdone
+os.exit()
 
 ::SS2::
 gg.clearResults()
@@ -41,7 +40,7 @@ gg.getResults(2)
 gg.editAll(999, gg.TYPE_FLOAT)
 gg.clearResults()
 gg.toast('CanalYT: Trevas Hacks')
-goto sdone
+os.exit()
 
 ::SS3::
 gg.clearResults()
@@ -50,7 +49,7 @@ gg.searchNumber("1;700;1.8", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("700", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(5)
 gg.editAll("0", gg.TYPE_DOUBLE)
-goto sdone
+os.exit()
 
 ::SS4::
 gg.clearResults()
@@ -67,7 +66,7 @@ for i, v in ipairs(t) do
 	end
 gg.addListItems(t)
 t = nil
-goto sdone
+os.exit()
 
 ::SS5::
 gg.setRanges(gg.REGION_VIDEO)
@@ -77,7 +76,7 @@ gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_FLOAT, 0, -1)
 gg.getResults(500)
 gg.editAll("130", gg.TYPE_FLOAT)
 gg.clearResults()
-goto sdone
+os.exit()
 
 ::SS6::
 gg.clearResults()
@@ -86,9 +85,6 @@ gg.searchNumber("0.0078125E;1.0F;0.0078125E;1.0F;0.0078125E;1.0F;0.0078125E;1.0F
 gg.refineNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(300)
 gg.editAll("3", gg.TYPE_FLOAT)
-goto sdone
-
-::sdone::
-print('🇧🇷ⓒⓐⓝⓐⓛ ⓝⓞ ⓨⓞⓤⓣⓤⓑⓔ: ⓣⓡⓔⓥⓐⓢ ⓖⓞⓓ🇧🇷')
 os.exit()
+
 
