@@ -13,7 +13,7 @@ if menu == 1 then goto SS1 end
 if menu == 2 then goto SS2 end
 if menu == 3 then goto SS3 end
 if menu == 4 then goto SS4 end
-if menu == 5 then goto SS5 end
+if menu == 5 then goto SS12 end
 if menu == 6 then goto SS6 end
  os.exit()
 
@@ -69,9 +69,9 @@ gg.addListItems(t)
 t = nil
 os.exit()
 
-::SS5::
-gg.setRanges(gg.REGION_VIDEO)
+::SS12::
 gg.clearResults()
+gg.setRanges(gg.REGION_VIDEO)
 gg.searchNumber("4923D;853D;2::150", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_FLOAT, 0, -1)
 gg.getResults(500)
