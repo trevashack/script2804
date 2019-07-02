@@ -1,13 +1,12 @@
 gg.alert('CHEAT FOR TEST | HACK PARA TESTE | 2019')
-gg.alert('PODE HAVER INSTABILIDADE EM ALGUNS HACKS, ESTOU FAZENDO ALTERAÇÕES')
 goto START
 ::START::
 menu= gg.choice({
 '➀.♠WallHack Simples; FUNCIONANDO EM QUALQUER CELULAR♠ - INOFENSIVO'
 ,'➁.♠ʙᴀʟᴀ ᴀᴛʀᴀᴠᴇssᴀ ᴘᴀʀᴇᴅᴇ♠ - INOFENSIVO'
 ,'➂.♠Todas as armas sem recoil♠'
-,'➃.♠SupremeHack - Ative por partida♠(ATIVE NA SALA DE TREINO E ATIRE EM UM BOT PARA VER OQUE ACONTECE)'
-,'➄.♠WallHack PRO♠ - Não funciona em todos os celulares, esse wall fica invisível somente as pessoas. UTILIZE A VERSÃO DO GG 82.1+ - INOFENSIVO'
+,'➃.♠SupremeHack♠ Ative por partida(ATIVE NA SALA DE TREINO E ATIRE EM UM BOT PARA VER OQUE ACONTECE)'
+,'➄.♠WallHack PRO♠ (Não funciona em todos os celulares, esse wall fica invisível somente as pessoas)INOFENSIVO'
 ,'➅.♠Personagem gigante♠ - INOFENSIVO'
 ,'Exit'},nil,'♠ⓣⓡⓔⓥⓐⓢ ⓗⓐⓒⓚⓢ ➁/➆♠')
 
