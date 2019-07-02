@@ -71,7 +71,7 @@ t = nil
 goto sdone
 
 ::SS5::
-g.setRanges(gg.REGION_VIDEO)
+gg.setRanges(gg.REGION_VIDEO)
 gg.clearResults()
   gg.searchNumber("4923D;853D;2::150", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_FLOAT, 0, -1)
