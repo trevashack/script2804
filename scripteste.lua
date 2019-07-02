@@ -63,6 +63,8 @@ for i, v in ipairs(t) do
 	if v.flags == gg.TYPE_FLOAT then
 		v.value = "4"
 		v.freeze = true
+		end
+	end
 gg.addListItems(t)
 t = nil
 goto sdone
@@ -70,10 +72,11 @@ goto sdone
 ::SS5::
 gg.setRanges(gg.REGION_VIDEO)
 gg.clearResults()
-  gg.searchNumber("4923D;853D;2::150", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("4923D;853D;2::150", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_FLOAT, 0, -1)
 gg.getResults(500)
 gg.editAll("130", gg.TYPE_FLOAT)
+gg.clearResults()
 goto sdone
 
 ::SS6::
