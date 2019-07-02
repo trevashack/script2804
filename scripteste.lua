@@ -64,7 +64,6 @@ for i, v in ipairs(t) do
 	if v.flags == gg.TYPE_FLOAT then
 		v.value = "4"
 		v.freeze = true
-
 gg.addListItems(t)
 t = nil
 goto sdone
