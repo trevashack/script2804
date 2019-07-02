@@ -29,7 +29,7 @@ gg.editAll("0", gg.TYPE_FLOAT)
 os.exit()
 
 ::SS2::
-gg.clearResults()
+g.clearResults()
  gg.setRanges(gg.REGION_CODE_APP | gg.REGION_CODE_SYS)
 gg.searchNumber("9.9999997e-10;9.9999997e-10;9.9999997e-10;9.9999997e-10:13", gg.TYPE_FLOAT)
 gg.getResults(1)
@@ -106,6 +106,6 @@ for i, v in ipairs(t) do
 end
 gg.addListItems(t)
 t = nil
-os.exit()
+os.exit(
 
 
