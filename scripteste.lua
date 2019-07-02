@@ -56,14 +56,15 @@ gg.clearResults()
   gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("0D;0.15000000596F;8,962D:29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("0.15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
 revert = gg.getResults(9999, nil, nil, nil, nil, nil, nil, nil, nil)
 local t = gg.getResults(9999, nil, nil, nil, nil, nil, nil, nil, nil)
 for i, v in ipairs(t) do
 	if v.flags == gg.TYPE_FLOAT then
 		v.value = "4"
 		v.freeze = true
-		end
 	end
+end
 gg.addListItems(t)
 t = nil
 os.exit()
