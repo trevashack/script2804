@@ -1,5 +1,5 @@
 gg.alert('CHEAT FOR TEST | HACK PARA TESTE | 2019')
-gg.alert('Adicionei também bala atravessar parede p/ vcs brincar')
+gg.alert('PODE HAVER INSTABILIDADE EM ALGUNS HACKS, ESTOU FAZENDO ALTERAÇÕES')
 goto START
 ::START::
 menu= gg.choice({
