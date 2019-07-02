@@ -5,9 +5,9 @@ menu= gg.choice({
 '➀.♠WallHack Simples; FUNCIONANDO EM QUALQUER CELULAR♠ - INOFENSIVO'
 ,'➁.♠ʙᴀʟᴀ ᴀᴛʀᴀᴠᴇssᴀ ᴘᴀʀᴇᴅᴇ♠ - INOFENSIVO'
 ,'➂.♠Todas as armas sem recoil♠'
-,'➃.♠SupremeHack♠ Ative por partida(ATIVE NA SALA DE TREINO E ATIRE EM UM BOT PARA VER OQUE ACONTECE)'
+,'➃.♠Personagem gigante♠ - INOFENSIVO'
 ,'➄.♠WallHack PRO♠ (Não funciona em todos os celulares, esse wall fica invisível somente as pessoas)INOFENSIVO'
-,'➅.♠Personagem gigante♠ - INOFENSIVO'})
+,'➅.♠SupremeHack♠ Ative por partida(ATIVE NA SALA DE TREINO E ATIRE EM UM BOT PARA VER OQUE ACONTECE)'})
 
 if menu == 1 then goto SS1 end
 if menu == 2 then goto SS2 end
@@ -53,20 +53,11 @@ os.exit()
 
 ::SS4::
 gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("0D;0.15000000596F;8,962D:29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("0.15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-
-revert = gg.getResults(9999, nil, nil, nil, nil, nil, nil, nil, nil)
-local t = gg.getResults(9999, nil, nil, nil, nil, nil, nil, nil, nil)
-for i, v in ipairs(t) do
-	if v.flags == gg.TYPE_FLOAT then
-		v.value = "4"
-		v.freeze = true
-	end
-end
-gg.addListItems(t)
-t = nil
+gg.setRanges(gg.REGION_C_BSS)
+gg.searchNumber("0.0078125E;1.0F;0.0078125E;1.0F;0.0078125E;1.0F;0.0078125E;1.0F:65", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(300)
+gg.editAll("3", gg.TYPE_FLOAT)
 os.exit()
 
 ::SS12::
@@ -81,11 +72,20 @@ os.exit()
 
 ::SS6::
 gg.clearResults()
-gg.setRanges(gg.REGION_C_BSS)
-gg.searchNumber("0.0078125E;1.0F;0.0078125E;1.0F;0.0078125E;1.0F;0.0078125E;1.0F:65", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(300)
-gg.editAll("3", gg.TYPE_FLOAT)
+  gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("0D;0.15000000596F;8,962D:29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("0.15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+revert = gg.getResults(9999, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(9999, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_FLOAT then
+		v.value = "4"
+		v.freeze = true
+	end
+end
+gg.addListItems(t)
+t = nil
 os.exit()
 
 
