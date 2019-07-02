@@ -79,14 +79,13 @@ gg.searchNumber("3;-10;-7;12,643D;101D;101D::", gg.TYPE_FLOAT, false, gg.SIGN_EQ
 gg.refineNumber("-7", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(112)
 gg.editAll("99999", gg.TYPE_FLOAT)
-gg.toast("Ativando... Por favor, espere, EM 50%")
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber('50.0F;-1D;0.5F;-1D;0.20000000298F:17', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber('0.5', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(999)
 gg.editAll('999', gg.TYPE_FLOAT)
-gg.toast('Completo 100%')
+
 
 os.exit()
 
