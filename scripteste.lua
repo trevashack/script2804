@@ -2,7 +2,7 @@
 -- Show alert with single 'ok' button
 function Main()
 siubo = gg.multiChoice({
-"✳️wall hack🛡✳️",
+"✳️wall hack🛡✳️"
 "✳️Perspectiva de obstáculos🛡✳️",
 "Tst",
 "Tst",
@@ -100,7 +100,7 @@ gg.getResults(1)
 gg.editAll("6", gg.TYPE_DOUBLE)
 gg.clearResults()
 gg.toast("ハイジャンプ")
-end
+
 
 function Q2()
 gg.clearResults()
