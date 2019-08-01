@@ -1,330 +1,721 @@
 
--- Show alert with single 'ok' button
 function Main()
-siubo = gg.multiChoice({
-"✳️wall hack🛡✳️"
-"✳️Perspectiva de obstáculos🛡✳️",
-"Tst",
-"Tst",
-"✳️Enorme🛡✳️",
-"✳️aimbot🛡✳️",
-"✳️Sem parede🛡✳️",
-"✳️Toda a aceleração do movimento🛡✳️",
-"✳️lootear mais longe🛡✳️",
-"✳️Perspectiva do mapa antigo🛡✳️",
-"✳️M4A1AIMBOT🛡✳️",
-"✳️Salto infinito🛡✳️",
-"✳️Salto em altura🛡✳️",
-"✳️Aceleração de natação🛡✳️",
-"✳️Correção antiga🛡✳️",
-"✳️Colorir mapa antigo (roxo)🛡✳️",
-"✳️Novo mapa colorido (vermelho)🛡✳️",
-"✳️Aceleração de carro🛡✳️",
-"✳️Gasolina infinita🛡✳️",
-"✳️Bugar o Rosto🛡✳️",
-"✳Correção🛡✳",
-"✳Test✳",
-"      ✳️Tela de seleção de aplicativos✳️"},nil,"produzido por alquiman")
-if siubo == nil then
-else
-if siubo[1] == true then Q1() end	
-if siubo[2] == true then Q2() end	
-if siubo[3] == true then A1() end	
-if siubo[4] == true then A2() end	
-
-if siubo[5] == true then Q3() end	
-if siubo[6] == true then Q4() end
-if siubo[7] == true then Q5() end
-if siubo[8] == true then Q6() end
-if siubo[9] == true then Q7() end
-if siubo[10] == true then Q8() end
-if siubo[11] == true then Q9() end
-if siubo[12] == true then W1() end
-if siubo[13] == true then Q10() end
-if siubo[14] == true then Q11() end
-if siubo[15] == true then Q12() end
-if siubo[16] == true then Q13() end
-if siubo[17] == true then Q14() end
-if siubo[18] == true then Q15() end
-if siubo[19] == true then Q16() end
-if siubo[20] == true then Q17() end
-if siubo[21] == true then Q18() end
-if siubo[22] == true then Q19() end
-
-
-
-if siubo[23] == true then Q20() 
-end
-if siubo[810] == true then Q100() end
-WUMING=-1
-end
-end
-function A1()
-
+menu = gg.choice({
+'                      ★Funcao1★',
+'                      ★Funcao2★',
+'                     ★Wall e chams★',
+'                       ★Aimbots★',
+'                       ★Sair★'},
+nil,os.date' %c\ ')
+if menu == 1 then A() end
+if menu == 2 then B() end
+if menu == 3 then C() end
+if menu == 4 then D() end
+if menu == 5 then print("Bom game！") os.exit() end
+XGCK=-1
 end
 
-function A2()
-
+function A()
+menu1 = gg.multiChoice({
+'①Ant Ban (Ativar na tela de login)',
+'②Radar auto-regulável (hall aberto)',
+'③Radar de voz (corredor aberto)',
+'④Todas armas sem recoil(abertura do salão)',
+'⑤Aceleração de vôo (lobby aberto)',
+'⑥Vôo de mapa cheio (corredor, ilha de nascimento)',
+'⑦Óleo de bloqueio de carro (a qualquer momento)',
+'⑧Aceleração de drogas (corredor aberto)',
+'⑨Aceleração de carro (corredor aberto)',
+'⑩Aceleração de jipe ​​(corredor aberto)',
+'⑪Aceleração de Wuling (salão aberto)',
+'⑫retornar'},
+nil,os.date' %c\ ')
+if menu1 == nil then else
+if menu1[1] == true then a1() end
+if menu1[2] == true then a2() end
+if menu1[3] == true then a3() end
+if menu1[4] == true then a4() end
+if menu1[5] == true then a5() end
+if menu1[6] == true then a6() end
+if menu1[7] == true then a7() end
+if menu1[8] == true then a8() end
+if menu1[9] == true then a9() end
+if menu1[10] == true then a10() end
+if menu1[11] == true then a11() end
+if menu1[12] == true then Main() end
+end
+GLWW=-1
+end
+function B()
+menu1 = gg.multiChoice({
+'①Remover grama (pouso aberto)',
+'②Teste',
+'③Entrar embaixo da terra(Ativar na partida)',
+'④Zero segundo remédio (a qualquer momento)',
+'⑤Personagem maior (o corredor está aberto))',
+'⑥Bala atravessa parede(corredor aberto) ',
+'⑦Bala atravessa chão (corredor aberto)',
+'⑧Recarregar mais rápido(o salão está aberto)',
+'⑨Remova o sol (lobby aberto)',
+'⑩Lootear um pouco mais distante (pouso)',
+'⑪Acelere com a arma (abertura do salão) ',
+'⑫Pula alto (corredor aberto)',
+'⑬Aceleração da natação (pouso aberto) ',
+'⑭Aceleração de mergulho (salão aberto)',
+'⑮Aceleração do piso (pouso aberto)',
+'⑯Mira no céu (salão aberto)',
+'⑰Personagens atravessando a parede (abertura do salão)',
+'⑱voltar',},
+nil,os.date' %c\ ')
+if menu1 == nil then else
+if menu1[1] == true then b1() end
+if menu1[2] == true then b2() end
+if menu1[3] == true then b3() end
+if menu1[4] == true then b4() end
+if menu1[5] == true then b5() end
+if menu1[6] == true then b6() end
+if menu1[7] == true then b7() end
+if menu1[8] == true then b8() end
+if menu1[9] == true then b9() end
+if menu1[10] == true then b10() end
+if menu1[11] == true then b11() end
+if menu1[12] == true then b12() end
+if menu1[13] == true then b13() end
+if menu1[14] == true then b14() end
+if menu1[15] == true then b15() end
+if menu1[16] == true then b16() end
+if menu1[17] == true then b17() end
+if menu1[18] == true then Main() end
+end
+GLWW=-1
+end
+function C()
+menu1 = gg.multiChoice({
+'①WallHack(salão aberto)',
+'②Snap845 coloração de perspectiva (corredor aberto) ',
+'③Snap835',
+'④Perspectiva de close-up (abertura do salão)',
+'⑤Perspectiva de artigo (corredor aberto)',
+'⑥Chams branco (salão aberto)',
+'⑦Chams azul (salão aberto)',
+'⑧Chams vermelho (salão aberto)',
+'⑨Voltar'},
+nil,os.date' %c\ ')
+if menu1 == nil then else
+if menu1[1] == true then c1() end
+if menu1[2] == true then c2() end
+if menu1[3] == true then c3() end
+if menu1[4] == true then c4() end
+if menu1[5] == true then c5() end
+if menu1[6] == true then c6() end
+if menu1[7] == true then c7() end
+if menu1[8] == true then c8() end
+if menu1[9] == true then Main() end
+end
+GLWW=-1
+end
+function D()
+menu1 = gg.multiChoice({
+'①M4Aim',
+'②AKAim',
+'③SCARAim',
+'④UZIAim,
+'⑤MP5Aim',
+'⑥Mauser Aim',
+'⑦SK12Aim',
+'⑧Voltar'},
+nil,os.date' %c\ ')
+if menu1 == nil then else
+if menu1[1] == true then d1() end
+if menu1[2] == true then d2() end
+if menu1[3] == true then d3() end
+if menu1[4] == true then d4() end
+if menu1[5] == true then d5() end
+if menu1[6] == true then d6() end
+if menu1[7] == true then d7() end
+if menu1[8] == true then Main() end
+end
+GLWW=-1
 end
 
-function W1()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("-0.3;-10;0.55::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("0.55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1)
-gg.editAll("1000", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("無限ジャンプ")
+
+
+function a1()
+	gg.setRanges(gg.REGION_C_ALLOC+gg.REGION_ANONYMOUS)
+	gg.searchNumber("1D;3.5E;0.5E;0.1E;0.9E::69", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	if gg.getResultCount() ==0 then
+		gg.toast("防封检测开启失败")
+	else
+		gg.searchNumber("0.1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(2)
+		gg.editAll("999", gg.TYPE_DOUBLE)
+		gg.toast("防封检测开启成功")
+		gg.clearResults()
+	end
+end
+function a2()
+	gg.clearResults() 
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("18;15;220;30;33", gg.TYPE_DOUBLE)
+	if gg.getResultCount() ==0 then
+		gg.toast("手动调节距离雷达开启失败")
+	else
+		gg.searchNumber('30', gg.TYPE_DOUBLE)
+		t = gg.getResults(1) 
+		t[1].value = '500'
+		t[1].freeze = true
+		print('addListItems: ', gg.addListItems(t))
+		gg.toast("手动调节距离雷达开启成功")
+	end 
+end 
+function a3()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("5.0;4.9e-324;20::25", gg.TYPE_DOUBLE,false,gg.SIGN_EQUAL,0, -1)
+	if gg.getResultCount() ==0 then
+		gg.toast("语音雷达开启失败")
+	else
+		gg.searchNumber("20", gg.TYPE_DOUBLE,false,gg.SIGN_EQUAL,0,-1)
+		gg.getResults(1)
+		gg.editAll("1200",gg.TYPE_DOUBLE)
+		gg.toast("语音雷达开启成功")
+	end
+end
+function a4()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("700E;1E;1.8E;4.18359375F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	if gg.getResultCount() >= 4 and gg.getResultCount() <= 46 then
+		gg.searchNumber("4.18359375", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		t = gg.getResults(4)
+		t[1].value = "-20"
+		t[1].freeze = true
+		t[2].value = "-20"
+		t[2].freeze = true
+		print("addListItems: ", gg.addListItems(t))
+		gg.toast("全局无后开启成功")
+	else
+		gg.toast("全局无后开启失败")
+	end
+end
+function a5()
+	gg.clearResults()
+	 gg.setRanges(4)
+	 gg.searchNumber("1;0.5;-0.5;1D;0.4::100", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.searchNumber("1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.getResults(100)
+	 gg.editAll("250", gg.TYPE_DOUBLE)
+	 gg.toast("飞行加速开启成功")
+	 gg.clearResults()
+end
+function a6()
+	gg.clearResults()
+	gg.alert("开伞的时候断网一下可防止拉回", "知道了")
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("1Q;0.5E;1.75F;1D;0.1E;-0.1::40", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	if gg.getResultCount() >= 1 then
+		gg.searchNumber("0.1;-0.1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(5)
+		gg.editAll("300", gg.TYPE_DOUBLE)
+		print("addListItems: ", gg.addListItems(mx))
+		gg.toast("飞行加速开启成功")
+	else
+		gg.toast("飞行加速开启失败")
+	end
+end
+function a7()
+	gg.clearResults()
+	gg.setRanges (gg.REGION_C_DATA)
+	gg.searchNumber('1;2048E::5', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	if gg.getResultCount() ==0 then
+		gg.toast("锁油失败")
+	else
+		gg.searchNumber('1 ', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(1)
+		gg.editAll('0.1', gg.TYPE_FLOAT)
+		gg.toast('锁油成功')
+	end
+end 
+function a8()
+	gg.clearResults() 
+	gg.setRanges (gg.REGION_C_ALLOC)
+	gg.searchNumber('14;12;4;8;20;6;10;2;3;1::',gg.TYPE_DOUBLE,false,gg.SIGN_EQUAL,0,-1) 
+	if gg.getResultCount() >= 1 then
+		gg.searchNumber('8;6;10;3',gg.TYPE_DOUBLE,false,gg.SIGN_DOUBLE,0,-1)
+		gg.getResults(5)
+		gg.editAll('4;3;5;1.5',gg.TYPE_DOUBLE)
+		gg.toast('嗑药加速开启成功')
+	else
+		gg.toast("嗑药加速开启失败")
+	end
+end
+function a9()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC+gg.REGION_ANONYMOUS)
+	gg.searchNumber("1.58;23;1;18", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	if gg.getResultCount() ==0 then
+		gg.toast("轿车加速开启失败")
+	else
+		gg.searchNumber("1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(1) 
+		gg.editAll("3", gg.TYPE_DOUBLE) 
+		gg.toast("轿车加速开启成功")
+	end
+end
+function a10()
+	 gg.clearResults()
+	 gg.setRanges(4)
+	 gg.searchNumber("1.5;10;20;7::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.getResults(100)
+	 gg.editAll("4",gg.TYPE_DOUBLE)
+	 gg.toast("吉普加速开启成功")
+	 gg.clearResults()
+end
+function a11()
+	 gg.clearResults()
+	 gg.setRanges(4)
+	 gg.searchNumber("-0.22;2;60::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.searchNumber("2", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.getResults(100)
+	 gg.editAll("6", gg.TYPE_DOUBLE)
+	 gg.toast("面包车加速开启成功")
+	 gg.clearResults()
 end
 
-function Q1()
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("9.9999997e-10;9.9999997e-10;9.9999997e-10;9.9999997e-10::13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(8)
-gg.editAll("999", gg.TYPE_FLOAT)
-gg.toast("壁抜き")
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("2.4375F;6.25;3.5;5;1.6::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("6.25;3.5;5;1.6::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(4)
-gg.editAll("7;10;7;7", gg.TYPE_DOUBLE)
-gg.toast("全移動加速")
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("0.7;-5;40;3.8;3;0.5::100", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("3", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1)
-gg.editAll("6", gg.TYPE_DOUBLE)
-gg.clearResults()
-gg.toast("ハイジャンプ")
 
 
-function Q2()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("5D;0E;1F;2E;2F::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(5)
-gg.editAll("6", gg.TYPE_FLOAT)
-local t = gg.getResults(1, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.addListItems(t)
-t = nil
-gg.toast("物資取得範囲拡大")
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("100000;1203982336D;50000;-100000::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("100000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(13)
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("戻る")
-loadfile("/storage/emulated/0/gg/.lua")()
+function b1()
+	 gg.clearResults()
+	 gg.setRanges(4)
+	 gg.searchNumber("80;1;10;5126;11::50", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.searchNumber("10", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.getResults(100)
+	 gg.editAll("0", gg.TYPE_DWORD)
+	 gg.toast("除草成功")
+	 gg.clearResults()
 end
-
-function Q3()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_BSS)
-gg.searchNumber("-1D;1D;-8,388,609D;-8,388,609D;-8,388,609D;2,139,095,039D;2,139,095,039D;2,139,095,039D;1;1;1;1,065,353,216D::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(3)
-gg.editAll("3.5", gg.TYPE_FLOAT)
-local t = gg.getResults(3, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.addListItems(t)
-t = nil
-gg.clearResults()
-gg.toast("巨大化")
+function b2()
+	 gg.clearResults()
+	 gg.setRanges(4)
+	 gg.alert("建议配合人物穿墙","OK")
+	 gg.searchNumber("50000;-100000::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.searchNumber("-100000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.getResults(100)
+	 gg.editAll("0", gg.TYPE_FLOAT)
+	 gg.toast("全图全除开启成功")
+	 gg.clearResults()
 end
-
-function Q4()
-  gg.clearResults()
+function b3()
+	gg.clearResults() 
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("4.9e-324E;1;0.01;0.2;4.9e-324E::", gg.TYPE_FLOAT,false, gg.SIGN_EQUAL, 0, -1)
+	if gg.getResultCount() ==0 then
+		gg.toast("新版遁地开启失败")
+	else
+		gg.searchNumber('1', gg.TYPE_FLOAT,gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(3) 
+		gg.editAll("6",gg.TYPE_FLOAT)
+		print('addListItems: ', gg.addListItems(t))
+		gg.toast("新版遁地开启成功")
+	end 
+end 
+function b4()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC+gg.REGION_ANONYMOUS)
+	gg.searchNumber('3;80;720;10;0.75', gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	if gg.getResultCount() ==0 then
+		gg.toast("嗑药加速开启失败")
+	else
+	gg.searchNumber('10;3', gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(20)
+	gg.editAll('0', gg.TYPE_DOUBLE)
+	gg.toast('嗑药加速第一步开启成功')
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC+gg.REGION_ANONYMOUS+gg.REGION_JAVA_HEAP)
+	gg.searchNumber('1.25;8;6;20;0.375;12', gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	end
+	if gg.getResultCount() ==0 then
+		gg.toast("嗑药加速第二步开启失败")
+	else
+		gg.searchNumber('0', gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(2)
+		gg.editAll('4;3', gg.TYPE_DOUBLE)
+		gg.toast('嗑药加速第二步开启成功')
+		gg.clearResults()
+	end
+end
+function b5()
+	gg.clearResults() 
+	gg.alert("大厅开启，飞机上改1为1.2~3，打完返回大厅前改回1，一局一改", "知道了")
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("0.4E;0F;1.875F;1E;1.875F;1.75F;1.75F::69", gg.TYPE_DOUBLE)
+	if gg.getResultCount() ==0 then
+		gg.toast("实体变大开启失败")
+	else
+		gg.searchNumber('1', gg.TYPE_DOUBLE)
+		t = gg.getResults(1) 
+		t[1].value = '1'
+		t[1].freeze = true
+		print('addListItems: ', gg.addListItems(t))
+		gg.toast("实体变大开启成功")
+	end
+end
+function b6()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("1.8E;0.05E;0.1E;300E::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	if gg.getResultCount() >= 1 then
+		gg.searchNumber("0.1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(2)
+		gg.editAll("999;0.1", gg.TYPE_DOUBLE)
+		gg.processResume()
+		local t = gg.getResults(2)
+		gg.addListItems(t)
+		t = nil
+		gg.processResume()
+		gg.toast("子弹全穿开启成功")
+	else
+		gg.toast("子弹全穿开启失败")
+	end
+end
+function b7()
+	 gg.clearResults()
+	 gg.setRanges(16)
+	 gg.searchNumber("16,843,009D;16,777,472D;2.350989e-38::10", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.searchNumber("2.350989e-38", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.getResults(100)
+	 gg.editAll("0", gg.TYPE_FLOAT)
+	 gg.toast("子弹全穿开启成功")
+	 gg.clearResults()
+end
+function b8()
+gg.clearResults()
   gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("1D~2D;0.15000000596::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(200)
-  gg.editAll("3", gg.TYPE_FLOAT)
-  gg.toast("当たり判定拡大")
+   gg.searchNumber("1;1.1;1.2;-0.02::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  if gg.getResultCount() >= 1 then
+    gg.searchNumber("1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(1)
+    gg.editAll("4.5", gg.TYPE_DOUBLE)
+    gg.clearResults()
+    gg.toast("秒换弹夹开启成功")
+  else
+    gg.toast("秒换弹夹开启失败")
   end
-
-function Q5()
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("9.9999997e-10;9.9999997e-10;9.9999997e-10;9.9999997e-10::13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(8)
-gg.editAll("999", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("壁抜き")
+end
+function b9()
+	gg.clearResults() 
+	gg.setRanges (gg.REGION_CODE_APP)
+	gg.searchNumber('360;180;1000', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	if gg.getResultCount() ==0 then
+		gg.toast("除去太阳开启失败")
+	else
+		gg.searchNumber('360', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(5)
+		gg.editAll('0', gg.TYPE_FLOAT)
+		gg.toast("除去太阳开启成功")
+		gg.clearResults()
+	end
+end
+function b10()
+	gg.clearResults()
+	gg.setRanges(4)
+	gg.searchNumber("5D;0E;1F;2E;2F::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("6", gg.TYPE_FLOAT)
+	 gg.toast("范围捨取开启成功")
+	 gg.clearResults()
+end
+function b11()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("7;6.25;3.5;0.2::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	if gg.getResultCount() ==0 then
+		gg.toast("持枪加速开启失败")
+	else
+		gg.searchNumber("6.25", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(1)
+		gg.editAll("8", gg.TYPE_DOUBLE)
+		gg.toast("持枪加速开启成功")
+	end
+end
+function b12()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC+gg.REGION_ANONYMOUS)
+	gg.searchNumber("4.9e-324E;40;3;0.5;0.2:100", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	if gg.getResultCount() ==0 then
+		gg.toast("人物微跳开启失败")
+	else
+		gg.searchNumber("3", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(1) 
+		gg.editAll("5", gg.TYPE_DOUBLE) 
+		gg.toast("人物微跳开启成功")
+	end
+end
+function b13()
+	gg.clearResults() 
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("2.75;2.5;4.4", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	if gg.getResultCount() ==0 then
+		gg.toast("游泳加速开启失败")
+	else
+		gg.searchNumber("2.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(1)
+		gg.editAll("9.5", gg.TYPE_DOUBLE)
+		gg.toast("游泳加速开启成功")
+		gg.clearResults()
+	end
+end
+function b14()
+	 gg.clearResults()
+	 gg.setRanges(4)
+	 gg.searchNumber("200;1.6;2.75::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.searchNumber("2.75", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.getResults(100)
+	 gg.editAll("9", gg.TYPE_DOUBLE)
+	 gg.toast("潜水加速开启成功")
+	 gg.clearResults()
+end
+function b15()
+	 gg.clearResults()
+	 gg.setRanges(4)
+	 gg.searchNumber("7;5;0.5;1.6::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.searchNumber("5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.getResults(100)
+	 gg.editAll("8", gg.TYPE_DOUBLE)
+	 gg.toast("小跑加速开启成功")
+	 gg.clearResults()
+end
+function b16()
+	 gg.clearResults()
+	 gg.setRanges(4)
+	 gg.searchNumber("0.284E;1.484E", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.searchNumber("1.484", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.getResults(100)
+	 gg.editAll("5", gg.TYPE_DOUBLE)
+	 gg.toast("站立路飞开启成功")
+	 gg.clearResults()
+end
+function b17()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_BSS)
+	gg.searchNumber("0.00392158423;0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.00392158423;0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(20)
+	gg.editAll("80", gg.TYPE_FLOAT)
+	gg.toast("人物穿墙开启成功")
+	gg.clearResults()
 end
 
-function Q6()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("2.4375F;6.25;3.5;5;1.6::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("6.25;3.5;5;1.6::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(4)
-gg.editAll("7;10;7;7", gg.TYPE_DOUBLE)
-gg.clearResults()
-gg.toast("全移動加速")
+
+function c1()
+	 gg.clearResults()
+	 gg.setRanges(-1032320)
+	 gg.searchNumber("4923D;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.getResults(100)
+	 gg.editAll("122", gg.TYPE_FLOAT)
+	 gg.toast("通用透视开启成功")
+	 gg.clearResults()
+end
+function c2()
+	gg.clearResults() 
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("24,581.5;2;3.87506556511;3.87506604195::", gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0, -1)
+	gg.searchNumber("2.0", gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0, -1)
+	gg.getResults(100)
+	gg.editAll("31",gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.015625;3.75;3.875;2.0;-1;0.99900001287::", gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0, -1)
+	gg.searchNumber("2;0.99900001287", gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0, -1)
+	gg.getResults(200)
+	gg.editAll("31",gg.TYPE_FLOAT)
+	gg.toast("透视上色开启成功")
+	gg.clearResults()
+end
+function c3()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("4,923D;853D;2F::150", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(20)
+	gg.editAll("40", gg.TYPE_FLOAT)
+	gg.toast("透视第一步开启成功")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber('103,240D;2F::150',gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+	gg.searchNumber('2',gg.TYPE_FLOAT, false, gg.SIGN_EQUAL,0,-1)
+	gg.getResults(20)
+	gg.editAll('20', gg.TYPE_FLOAT)
+    gg.toast("透视开启成功")
+ end
+function c4()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.015625;3.87548828125;3.75;2.0;-1;0.75;0.24899999797;0.99900001287::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("40", gg.TYPE_FLOAT)
+	gg.toast("近身透视开启成功")                                                                              
+	gg.clearResults()
+end
+function c5()
+	 gg.clearResults()
+	 gg.setRanges(-1032320)
+	 gg.searchNumber("1280D;4155D;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.getResults(100)
+	 gg.editAll("77", gg.TYPE_FLOAT)
+	 gg.toast("装备透视开启成功")
+	 gg.clearResults()
+end
+function c6()
+	 gg.clearResults()
+	 gg.setRanges(-1032320)
+	 gg.searchNumber("4923D;-1;0.99900001287::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.searchNumber("0.99900001287", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.getResults(100)
+	 gg.editAll("999", gg.TYPE_FLOAT)
+	 gg.toast("人物白色开启成功")
+	 gg.clearResults()
+end
+function c7()
+	gg.clearResults()
+	gg.setRanges(4)
+	gg.searchNumber("1,063,562,900;1,061,882,180;1,084,227,584;1,052,329,640;1,053,193,859::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1,084,227,584", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	jg=gg.getResults(1)
+	if jg[1]== nil then
+		gg.toast("开启失败")
+	else
+		dzy=jg[1].address
+		dz=jg[1].address+36
+		--十进制转到十六进制
+		yz16=string.format("%#X",dzy)
+		z16=string.format("%#X",dz)
+		gg.clearResults()
+		gg.searchAddress(z16 , -1 , gg.TYPE_DWORD , gg.SIGN_EQUAL , 0 , -1)
+		gg.getResults(1)
+		gg.editAll("1,203,982,208", gg.TYPE_DWORD)
+		gg.toast("人物蓝色成功")
+	end
+end
+function c8()
+	gg.clearResults()
+	gg.setRanges(4)
+	gg.searchNumber("1,063,562,900;1,061,882,180;1,084,227,584;1,052,329,640;1,053,193,859::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1,084,227,584", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	jg=gg.getResults(1)
+	if jg[1]== nil then
+		gg.toast("开启失败")
+	else
+		dzy=jg[1].address
+		dz=jg[1].address+28
+		--十进制转到十六进制
+		yz16=string.format("%#X",dzy)
+		z16=string.format("%#X",dz)
+		gg.clearResults()
+		gg.searchAddress(z16 , -1 , gg.TYPE_DWORD , gg.SIGN_EQUAL , 0 , -1)
+		gg.getResults(1)
+		gg.editAll("1,203,982,208", gg.TYPE_DWORD)
+		gg.toast("人物红色成功")
+	end
 end
 
-function Q7()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("5D;0E;1F;2E;2F::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(5)
-gg.editAll("6", gg.TYPE_FLOAT)
-local t = gg.getResults(1, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.addListItems(t)
-t = nil
-gg.clearResults()
-gg.toast("物資取得範囲拡大")
+
+
+function d1()
+	 gg.clearResults()
+	 gg.setRanges(4)
+	 gg.searchNumber("0.35E;1.67499995232;4.4E::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.searchNumber("1.67499995232", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.getResults(100)
+	 gg.editAll("999999999", gg.TYPE_FLOAT)
+	 gg.toast("M4自瞄开启成功")
+	 gg.clearResults()
+end
+function d2()
+	 gg.clearResults()
+	 gg.setRanges(4)
+	 gg.searchNumber("2.7E;0.4E;3E;1.64999997616F::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.searchNumber("1.64999997616", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.getResults(100)
+	 gg.editAll("99999999", gg.TYPE_FLOAT)
+	 gg.toast("AK自瞄开启成功")
+	 gg.clearResults()
+end
+function d3()
+	 gg.clearResults()
+	 gg.setRanges(4)
+	 gg.searchNumber("0.4;47;26::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.searchNumber("0.4", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.getResults(100)
+	 gg.editAll("6.0824488e77", gg.TYPE_DOUBLE)
+	 gg.toast("SACR步枪自瞄开启成功")
+	 gg.clearResults()
+end
+function d4()
+	 gg.clearResults()
+	 gg.setRanges(4)
+	 gg.searchNumber("60;360;180::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.searchNumber("60", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.getResults(100)
+	 gg.editAll("6.0824488e77", gg.TYPE_DOUBLE)
+	 gg.toast("UZl冲锋枪自瞄开启成功")
+	 gg.clearResults()
+end
+function d5()
+	 gg.clearResults()
+	 gg.setRanges(4)
+	 gg.searchNumber("280;140;0.45::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.searchNumber("0.45", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.getResults(100)
+	 gg.editAll("6.0824488e77", gg.TYPE_DOUBLE)
+	 gg.toast("mp5冲锋枪M680散弹枪自瞄开启成功")
+	 gg.clearResults()
+end
+function d6()
+	 gg.clearResults()
+	 gg.setRanges(4)
+	 gg.searchNumber("1,717,986,918D;0.35::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.searchNumber("0.35", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.getResults(100)
+	 gg.editAll("6.0824488e77", gg.TYPE_DOUBLE)
+	 gg.toast("毛瑟狙击枪自瞄开启成功")
+	 gg.clearResults()
+end
+function d7()
+	 gg.clearResults()
+	 gg.setRanges(4)
+	 gg.searchNumber("150;30;0.99::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.searchNumber("30", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.getResults(100)
+	 gg.editAll("6.0824488e77", gg.TYPE_DOUBLE)
+	 gg.toast("SK12散弹枪自瞄")
+	 gg.clearResults()
 end
 
-function Q8()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("100000;1203982336D;50000;-100000::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("100000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(13)
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("旧マップ透視")
-end
 
-function Q9()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("1.67499995232;4.4E;4.3E::500", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1)
-gg.editAll("10000000000", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("M4M1AIMBOT")
-end
 
-function Q10()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("0.7;-5;40;3.8;3;0.5::100", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("3", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1)
-gg.editAll("6", gg.TYPE_DOUBLE)
-gg.clearResults()
-gg.toast("ハイジャンプ")
-end
-function Q11()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("200;1.6;4.9e-324;2.09375F;2.5;2.0625F;4.4::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1)
-gg.editAll("5", gg.TYPE_DOUBLE)
-gg.clearResults()
-gg.toast("泳ぎ加速")
-end
-
-function Q12()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("0.00001;2F;1.75F;9.8::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("9.8", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1)
-gg.editAll("0", gg.TYPE_DOUBLE)
-local t = gg.getResults(1, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.addListItems(t)
-t = nil
-gg.clearResults()
-gg.setRanges(gg.REGION_C_BSS)
-gg.searchNumber("255D;953,267,991D;0.0001;0.00392158423;998,277,282D::25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("0.00392158423", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-local r = gg.getResults(1)
-print('Remove first 1 results: ', gg.removeResults(r))
-gg.getResults(1)
-gg.editAll("-1", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("補正")
-end
-
-function Q13()
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("0.09;1000:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("0.09", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1)
-gg.editAll("-1", gg.TYPE_FLOAT)
-gg.toast("着色開始")
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("0.69939351082;0.69939357042;0.68141925335;5;1.5;0.75;1;1;1;1;0.5;1.20000004768::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(8)
-gg.editAll("0;30;0;30;0;30;0;30", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("着色成功")
-end
-
-function Q14()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("0.87273275852;0.79311013222;0.71762365103;7.5;0.53104925156;0.69939357042;1.29999995232;1;0.85243749619;1.39999997616::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(3)
-gg.editAll("1;1;500", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("着色成功")
-end
-function Q15()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("5D;0.80000001192;0.33000001311;1;0.80000001192;600;700;0.15000000596;-26;37;27;16;10::250", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(15)
-gg.editAll("150000", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("車加速")
-end
-function Q16()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_DATA)
-gg.searchNumber("1;2048E::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(2)
-gg.editAll("0.001", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("燃料無限")
-end
-function Q17()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("1.0e-6;1.10000002384;-0.000012;0.1168569997;-0.000012;-0.09671799839;0.00022;0.00362200011;1::45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("1.10000002384;0.1168569997", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
-gg.editAll("10000;2", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("顔面チート")
-end
-function Q18() gg.clearResults() gg.setRanges(gg.REGION_C_ALLOC) gg.searchNumber("0.00001;2F;1.75F;9.8::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("9.8", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1) gg.getResults(1) gg.editAll("0", gg.TYPE_DOUBLE) gg.clearResults() gg.setRanges(gg.REGION_C_BSS)
-gg.searchNumber("255D;953,267,991D;0.0001;0.00392158423;998,277,282D::25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("0.00392158423", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) local r = gg.getResults(1) print('Remove first 1 results: ', gg.removeResults(r)) gg.getResults(1) gg.editAll("0", gg.TYPE_FLOAT) gg.toast("補正")
-end
-function Q19() gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("0.70710682869F;0.0078125E;1.0F;0.00999999978F;0.70710682869F;0.0078125E;1065353216D;1,069,547,520D;1,048,576,000D;1.4012985e-45F::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) gg.getResults(1) gg.editAll("5", gg.TYPE_FLOAT)
-gg.toast("試合中床潜り") end
-function Q20()
-gg.toast("戻る")
-loadfile("/storage/emulated/0/gg/.lua")()
-end
-function Q100()
-os.exit()
-end
-while(true)
-do
-if gg.isVisible(true)then
-WUMING=1
+while(true)do
+if gg.isVisible(true) then
+XGCK=1
 gg.setVisible(false)
 end
-if WUMING==1 then Main() end
+gg.clearResults()
+if XGCK==1 then
+Main()
 end
+end
+
+
+
+
+
+
+
+
+
+
