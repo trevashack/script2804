@@ -293,7 +293,7 @@ end
 -- Section		: Main Code
 -- Description	: This where first code get executed known as Main code.
 gg.setVisible(false)
-gg.toast("âš™ï¸ Iniciando...", true)
+gg.toast(" Iniciando...", true)
 
 if gg.getTargetPackage() ~= 'com.activision.callofduty.shooter' then
 	return gg.alert("Script Error:\n𝐒𝐜𝐫𝐢𝐩𝐭 𝐜𝐨𝐦𝐩𝐚𝐭𝐢𝐯𝐞𝐥 𝐬𝐨𝐦𝐞𝐧𝐭𝐞 𝐜𝐨𝐦 𝐨 𝐂𝐎𝐃 𝟏.𝟎.𝟖 𝐀𝐛𝐞𝐫𝐭𝐨")
@@ -367,5 +367,5 @@ else
 		if Hack[_].Address ~= nil then CheatHandler(Hack[_]) end
 		end
 	end
-	gg.toast("ðŸ“· Todos os hackers desligam.")
+	gg.toast(" Todos os hackers desligam.")
 end
