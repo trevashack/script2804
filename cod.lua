@@ -25,7 +25,7 @@ Hack	= {
 		["On"]	= 1,
 		Type	= gg.TYPE_BYTE,
 		Exec	= function() 
-			if Hack['ESP_2'].Switch or not Hack['ESP_1'].Switch and gg.alert('Mostrar etiqueta de nome do inimigo?\nÀs vezes você pode ficar confuso quando os nicks cobrem a barra de saúde vermelha do inimigo.', 'Mostrar', 'Não') == 1 then
+			if Hack['ESP_2'].Switch or not Hack['ESP_1'].Switch and gg.alert('𝔐𝔬𝔰𝔱𝔯𝔞𝔯 𝔢𝔱𝔦𝔮𝔲𝔢𝔱𝔞 𝔡𝔢 𝔫𝔬𝔪𝔢 𝔡𝔬 𝔦𝔫𝔦𝔪𝔦𝔤𝔬?\n𝔄𝔰 𝔳𝔢𝔷𝔢𝔰 𝔳𝔬𝔠𝔢 𝔭𝔬𝔡𝔢 𝔣𝔦𝔠𝔞𝔯 𝔠𝔬𝔫𝔣𝔲𝔰𝔬 𝔮𝔲𝔞𝔫𝔡𝔬 𝔬𝔰 𝔫𝔦𝔠𝔨𝔰 𝔠𝔬𝔟𝔯𝔢𝔪 𝔞 𝔟𝔞𝔯𝔯𝔞 𝔡𝔢 𝔰𝔞𝔲𝔡𝔢 𝔳𝔢𝔯𝔪𝔢𝔩𝔥𝔞 𝔡𝔬 𝔦𝔫𝔦𝔪𝔦𝔤𝔬.', '𝕸𝖔𝖘𝖙𝖗𝖆𝖗', '𝕹𝖆𝖔') == 1 then
 				CheatHandler(Hack['ESP_2'])
 			end
 			CheatHandler(Hack['ESP_3']) 
@@ -161,10 +161,17 @@ Hack	= {
 -- Description	: This is where hand, leg, mouth, nose a.k.a Important part of the script.
 function ShowChangelog()
 PopupBox([[
-â€¢ Changelog
-  [ v1.1_1 ]
-    + Correção de falha ao restaurar o estado.
-    + Adicionado Fire Rate, Speed, e Aimlock.
+â€¢               𝓒𝓞𝓓 𝓢𝓒𝓡𝓘𝓟𝓣 𝓥𝓔𝓡𝓢𝓐𝓞 1.0
+                  - 𝐂𝐡𝐚𝐧𝐠𝐞𝐋𝐨𝐠: 
+                    +𝐀𝐝𝐢𝐜𝐢𝐨𝐧𝐚𝐝𝐨 𝐀𝐢𝐦𝐥𝐨𝐜𝐤
+                    +𝐖𝐚𝐥𝐥𝐇𝐚𝐜𝐤 𝐀𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐝𝐨
+                    +𝐅𝐢𝐫𝐞 𝐫𝐚𝐭𝐞 𝐱𝟏𝟎
+                    +𝐌𝐚𝐩𝐡𝐚𝐜𝐤 𝐚𝐝𝐢𝐜𝐢𝐨𝐧𝐚𝐝𝐨
+                  - - - - - - - - - - - - - -
+                 C̲R̲I̲A̲D̲O̲R̲:̲ ̲T̲R̲E̲V̲A̲S̲ ̲H̲A̲C̲K̲S̲
+                 𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙 𝙽𝚞𝚖𝚋𝚎𝚛: +𝟻𝟻 𝟾𝟷 𝟿𝟾𝟾𝟸𝟼-𝟹𝟷𝟺𝟹
+                 Ⓢⓒⓡⓘⓟⓣ ⓐⓣⓤⓐⓛⓘⓩⓐⓓⓞ
+		𝘾𝙖𝙣𝙖𝙡 𝙣𝙤 𝙔𝙤𝙪𝙩𝙪𝙗𝙚: 𝙏𝙧𝙚𝙫𝙖𝙨 𝙃𝙖𝙘𝙠𝙨
 ]])
 end
 function PopupBox(Caption, Text)
@@ -289,7 +296,7 @@ gg.setVisible(false)
 gg.toast("âš™ï¸ Iniciando...", true)
 
 if gg.getTargetPackage() ~= 'com.activision.callofduty.shooter' then
-	return gg.alert("Script Error:\nEsse script só é aberto e compatível quando selecionado o COD")
+	return gg.alert("Script Error:\n𝐒𝐜𝐫𝐢𝐩𝐭 𝐜𝐨𝐦𝐩𝐚𝐭𝐢𝐯𝐞𝐥 𝐬𝐨𝐦𝐞𝐧𝐭𝐞 𝐜𝐨𝐦 𝐨 𝐂𝐎𝐃 𝟏.𝟎.𝟖 𝐀𝐛𝐞𝐫𝐭𝐨")
 end
 function getLibBase(lib)
 	for _, __ in pairs(gg.getRangesList(lib)) do
@@ -319,18 +326,18 @@ while(true) do
 	if gg.isVisible() then gg.setVisible(false)
 		i = gg.multiChoice({
 		-- Menu Of Cheats, Each cheat separated by ","
-		"â€¢ " .. Bool2Switch(Hack["ESP_1"].Switch) .. " | SuperVisão",
-		"â€¢ " .. Bool2Switch(Hack["AIM_1"].Switch) .. " | Aimlock",
-		"â€¢ " .. Bool2Switch(fRateSwitch) .. " | Taxa de tiro" .. (fRateSwitch and '( Pwr: '..fRateVal..' )' or ''),
-		"â€¢ " .. Bool2Switch(fSpeedSwitch) .. " | Velocidade de personagem" .. (fSpeedSwitch and '( Pwr: '..fSpeedVal..' )' or ''),
-		"â€¢ ðŸšª Sair"
+		"â€¢ " .. Bool2Switch(Hack["ESP_1"].Switch) .. " | 𝓦𝓪𝓵𝓵𝓗𝓪𝓬𝓴",
+		"â€¢ " .. Bool2Switch(Hack["AIM_1"].Switch) .. " | 𝓐𝓲𝓶𝓫𝓸𝓽",
+		"â€¢ " .. Bool2Switch(fRateSwitch) .. " | 𝓕𝓲𝓻𝓮 𝓻𝓪𝓽𝓮" .. (fRateSwitch and '( Pwr: '..fRateVal..' )' or ''),
+		"â€¢ " .. Bool2Switch(fSpeedSwitch) .. " | 𝓥𝓮𝓵𝓸𝓬𝓲𝓭𝓪𝓭𝓮 𝓭𝓮 𝓹𝓮𝓻𝓼𝓸𝓷𝓪𝓰𝓮𝓶" .. (fSpeedSwitch and '( Pwr: '..fSpeedVal..' )' or ''),
+		"â€¢ ðŸšª Ⓢⓐⓘⓡ"
 		}, 
 		nil, 
 		-- Menu Of Cheat Header
-[[xCoD >
-  < v1.1_1
-Whatsapp: +55 81 98826-3143
-Nota: Todo o hack precisa ser alternado no lobby.]]
+[[C̲R̲I̲A̲D̲O̲R̲:̲ ̲T̲R̲E̲V̲A̲S̲ ̲H̲A̲C̲K̲S̲
+                 𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙 𝙽𝚞𝚖𝚋𝚎𝚛: +𝟻𝟻 𝟾𝟷 𝟿𝟾𝟾𝟸𝟼-𝟹𝟷𝟺𝟹
+                 Ⓢⓒⓡⓘⓟⓣ ⓐⓣⓤⓐⓛⓘⓩⓐⓓⓞ
+		𝘾𝙖𝙣𝙖𝙡 𝙣𝙤 𝙔𝙤𝙪𝙩𝙪𝙗𝙚: 𝙏𝙧𝙚𝙫𝙖𝙨 𝙃𝙖𝙘𝙠𝙨]]
 		)
 		if i ~= nil then
 			if i[1] then CheatHandler(Hack["ESP_1"]) end
