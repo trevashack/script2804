@@ -161,7 +161,7 @@ Hack	= {
 -- Description	: This is where hand, leg, mouth, nose a.k.a Important part of the script.
 function ShowChangelog()
 PopupBox([[
-â€¢               𝓒𝓞𝓓 𝓢𝓒𝓡𝓘𝓟𝓣 𝓥𝓔𝓡𝓢𝓐𝓞 1.0
+                 𝓒𝓞𝓓 𝓢𝓒𝓡𝓘𝓟𝓣 𝓥𝓔𝓡𝓢𝓐𝓞 1.0
                   - 𝐂𝐡𝐚𝐧𝐠𝐞𝐋𝐨𝐠: 
                     +𝐀𝐝𝐢𝐜𝐢𝐨𝐧𝐚𝐝𝐨 𝐀𝐢𝐦𝐥𝐨𝐜𝐤
                     +𝐖𝐚𝐥𝐥𝐇𝐚𝐜𝐤 𝐀𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐝𝐨
@@ -326,11 +326,11 @@ while(true) do
 	if gg.isVisible() then gg.setVisible(false)
 		i = gg.multiChoice({
 		-- Menu Of Cheats, Each cheat separated by ","
-		"â€¢ " .. Bool2Switch(Hack["ESP_1"].Switch) .. " | 𝓦𝓪𝓵𝓵𝓗𝓪𝓬𝓴",
-		"â€¢ " .. Bool2Switch(Hack["AIM_1"].Switch) .. " | 𝓐𝓲𝓶𝓫𝓸𝓽",
-		"â€¢ " .. Bool2Switch(fRateSwitch) .. " | 𝓕𝓲𝓻𝓮 𝓻𝓪𝓽𝓮" .. (fRateSwitch and '( Pwr: '..fRateVal..' )' or ''),
-		"â€¢ " .. Bool2Switch(fSpeedSwitch) .. " | 𝓥𝓮𝓵𝓸𝓬𝓲𝓭𝓪𝓭𝓮 𝓭𝓮 𝓹𝓮𝓻𝓼𝓸𝓷𝓪𝓰𝓮𝓶" .. (fSpeedSwitch and '( Pwr: '..fSpeedVal..' )' or ''),
-		"â€¢ ðŸšª Ⓢⓐⓘⓡ"
+		" " .. Bool2Switch(Hack["ESP_1"].Switch) .. " | 𝓦𝓪𝓵𝓵𝓗𝓪𝓬𝓴",
+		" " .. Bool2Switch(Hack["AIM_1"].Switch) .. " | 𝓐𝓲𝓶𝓫𝓸𝓽",
+		" " .. Bool2Switch(fRateSwitch) .. " | 𝓕𝓲𝓻𝓮 𝓻𝓪𝓽𝓮" .. (fRateSwitch and '( Pwr: '..fRateVal..' )' or ''),
+		" " .. Bool2Switch(fSpeedSwitch) .. " | 𝓥𝓮𝓵𝓸𝓬𝓲𝓭𝓪𝓭𝓮 𝓭𝓮 𝓹𝓮𝓻𝓼𝓸𝓷𝓪𝓰𝓮𝓶" .. (fSpeedSwitch and '( Pwr: '..fSpeedVal..' )' or ''),
+		" Ⓢⓐⓘⓡ"
 		}, 
 		nil, 
 		-- Menu Of Cheat Header
@@ -352,8 +352,8 @@ end
 
 -- Section		  : Cleaning
 -- Description	: In case you need to disable hack before quitting script.
-if gg.alert("ðŸ¤¯ Restaurar estado do jogo ?\n  - Deixar o hack em execução pode causar instabilidade no jogo. Certifique-se de restaurar o estado do jogo ao normal antes de sair.", "â™» Restaurar", "âš ï¸ Manter") == 2 then
-	gg.toast("ðŸ“¸ Você foi avisado !")
+if gg.alert(" Restaurar estado do jogo ?\n  - Deixar o hack em execução pode causar instabilidade no jogo. Certifique-se de restaurar o estado do jogo ao normal antes de sair.", "» Restaurar", "Manter") == 2 then
+	gg.toast("Você foi avisado !")
 else
 	if fRateOrig then fRateOrig() end
 	if fSpeedOrig then fSpeedOrig() end
