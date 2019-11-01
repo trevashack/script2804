@@ -1,9 +1,9 @@
 gg.alert("getting phone info...")
-gg.alert("
-DEVICE:[HUAWEI P30 PRO]
-ANDROID:[ANDROID 9 EMUI 9.1 PIE]
-GAMEGUARDIAN:[87.0✓]
-SCRIPT VERSION:[1.1✓]")
+gg.alert(" DEVICE:[HUAWEI P30 PRO] | ANDROID:[ANDROID 9 EMUI 9.1 PIE] | GAMEGUARDIAN:[87.0✓] | SCRIPT VERSION:[1.1✓]")
+gg.toast("1% LOADED...")
+gg.toast("50% LOADED...")
+gg.toast("100% LOADED...")
+
 
 function Decryption(xuanshen,Text)
 
