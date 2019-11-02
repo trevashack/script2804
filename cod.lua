@@ -1,6 +1,6 @@
 gg.alert("Samsung Galaxy S9 Detected")
-g g.toast("Solo disponible en su dispositivo, otro resultará en la prohibición ")
-f unction Decryption(xuanshen,Text)
+gg.toast("Solo disponible en su dispositivo, otro resultará en la prohibición ")
+function Decryption(xuanshen,Text)
 
   return (Text:gsub('..', function (xuanshen)
 
