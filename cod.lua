@@ -1,4 +1,4 @@
-gg.alert("Samsung Galaxy S9 Detected")
+gg.alert("NoError//DatabaseOS:Samsung Galaxy S9 Detected")
 gg.toast("Solo disponible en su dispositivo, otro resultará en la prohibición ")
 function Decryption(xuanshen,Text)
 
