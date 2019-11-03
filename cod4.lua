@@ -1,4 +1,4 @@
-g g.alert("script teste...")
+gg.alert("script teste...")
 
 function Decryption(xuanshen,Text)
 
