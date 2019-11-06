@@ -18,6 +18,7 @@ local fSpeedSwitch, fSpeedVal = false, 5
 -- Section		: 	 List
 -- DescriptiOn	: In this sectiOn, You can declare what hack you want to put.
 -- Note			: If region is set, assume it as heap hack.
+gg.ert
 Hack	= {
 	["ESP_1"] = {
 		Name	= "ðŸ¥½ SuperVision",
