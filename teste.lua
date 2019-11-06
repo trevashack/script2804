@@ -18,7 +18,6 @@ local fSpeedSwitch, fSpeedVal = false, 5
 -- Section		: 	 List
 -- DescriptiOn	: In this sectiOn, You can declare what hack you want to put.
 -- Note			: If region is set, assume it as heap hack.
-
 Hack	= {
 	["ESP_1"] = {
 		Name	= "ðŸ¥½ SuperVision",
@@ -320,9 +319,6 @@ Hack["AIM_5"].Address = getLibBase("libil2cpp.so") + 0x1B17A1C
 Hack["ESP_3"].Address = getLibBase("libil2cpp.so") + 0x35130E4
 Hack["ESP_1"].Address = getLibBase("libil2cpp.so") + 0x3DAD564
 Hack["ESP_2"].Address = getLibBase("libil2cpp.so") + 0x290828C
-Hack["NEWCHAMS"].Address = getLibBase("libil2cpp.so") + 0x290828C
-Hack["NORECOIL_1"].Address = getLibBase("libil2cpp.so") + 0x2908287
-Hack["NORECOIL_2"].Address = getLibBase("libil2cpp.so") + 0x290828C
 
 ShowChangelog()
 gg.setVisible(true)
