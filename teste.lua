@@ -319,7 +319,7 @@ Hack["AIM_5"].Address = getLibBase("libil2cpp.so") + 0x1B17A1C
 Hack["ESP_3"].Address = getLibBase("libil2cpp.so") + 0x35130E4
 Hack["ESP_1"].Address = getLibBase("libil2cpp.so") + 0x3DAD564
 Hack["ESP_2"].Address = getLibBase("libil2cpp.so") + 0x290828C
-
+Hack["Pagar"]
 ShowChangelog()
 gg.setVisible(true)
 while(true) do
