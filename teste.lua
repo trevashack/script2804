@@ -367,5 +367,5 @@ else
 		if Hack[_].Address ~= nil then CheatHandler(Hack[_]) end
 		end
 	end
-	gg.toast(" Todos os hackers desligam.")
+	gg.toast(" xD Todos os hackers desligam.")
 end
